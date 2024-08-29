@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* Comments */
+        </style>
+
+        <script>
+            // Reading javascript and does not know hot to read html //
+            console.log("Hi Edwin");
+            
+            // The command below will not work as it cannot see anything that is below the code //
+            document.getElementsByTagName('body')[0].firstChild = ' ';
+
+            // Onload makes the body load the function below so it works even if the function is above the body //
+            function init(){
+                document.getElementsByTagName('body')[0].firstChild = ' ';
+            }
+        </script>
+    </head>
+    <body onload="init()">
+
+    </body>
+</html>
