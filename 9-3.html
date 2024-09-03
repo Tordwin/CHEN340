@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function dan(x,y,z){
+            return x+y+z+arguments[3];
+        }
+
+        function sumItAll(x,y,z){
+            let sum = 0;
+            // let sum; is wrong because it is an undefined object. It will concat itself as a string to become undefined57.
+            for(let i = 0, len = arguments.length; i<length; i++){
+                sum = sum + arguments[i];
+            }
+            return sum;
+        }
+
+        // function named name() is actually both the same
+        function name(){
+
+        }
+        // why not use let name? It is a different scope.
+        const name = function(){
+
+        }
+
+        sumItAll(5,7); 
+        let theSum = sumItAll(5,7) // To catch the function
+        dan(5,7,'g',9) // 12g9
+        let x = dan(); // Calling the function with semicolon
+        obj.onclick = dan; // Handle of the function
+    </script>
+</head>
+<body onmousemove= "sumItAll();">
+    
+</body>
+</html>

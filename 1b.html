@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // let vs var vs const
+
+        console.log('test let')
+        let x = 0;
+
+        function testMe(){
+            let x = 1;
+            const y = 9;
+            z = 6;            
+            console.log('inside the function: ', x, z);
+        }
+
+        console.log('before function:', x);
+        testMe();
+        console.log('after function: ', x, z);
+        console.log(window.z); //access a var via the window
+        console.log(window.x); //no good with let or const
+
+        //good
+        let myArr = [4, {}, "string"];
+        //bad - don't use name/values pairs with arrays in JS!
+        myArr['name'] = "fred";
+
+        //var obj = new Object;
+        //obj['name'] = ['dan', 'scott', 'bogaard'];
+        //obj['job'] = ['profess','rit'];
+
+        let obj = {
+            name: ['dan', 'scott', 'bogaard'],
+            job: ['profess','rit']
+        };
+
+        //json will have trouble if it is using '' instead of ""
+
+        console.log(obj['name'][0], obj['job'][0])
+
+        // roll through entire obj
+        for (let i in obj){
+            console.log(i);
+            for (let j = 0, len=obj[1].length; j<len; j++){
+                console.funct(obj[i][j]);
+            }
+        }
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
