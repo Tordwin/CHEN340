@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>window play</title>
+
+    <!--
+    <script src="path/script.js" async/defer/none></script>
+
+    async: script is loaded in parallel (done sooner)
+    script is executed ASAP (when done loading) - BEFORE parsing complete
+
+    defer: script is loaded in parallel (done sooner)
+    script is executed when DOM/parsing is complete
+
+    IF neither: script is blocking (stops all loading and parsing)
+    then executed
+    -->
+
+    <script>
+        //browser detection!
+        // YOU MSUT DO THIS ON YOUR PROJECT
+        // do this the very first thing...
+        if (!document.getElementById) {
+            //their browser sucks - really old...
+            window.location = "legacy.html";
+        }
+
+        let newWin; //var to hold the ref to the new window
+
+        function makeNew(){
+            //create a new window
+            let newWin = window.open('','name','height=300, width=250, top=300');
+            newWin.document.write("<h1>hello</h1>");
+
+            //play with sandbox
+            //newWin.location = "https://google.com";
+        }
+
+        function closeNew(){
+            newWin.window.close();
+        }
+    </script>
+</head>
+<body style="background-color: #999966;">
+<form>
+    <input type="button" value="Create New Window" onclick="makeNew()">
+    <input type="button" value="Close New Window" onclick="closeNew()">
+    
+</form>
+</body>
+</html>
