@@ -29,6 +29,19 @@
         }
     }
 
+    function changeMe(dom){
+        // go out and update the big pic to the next pic
+        // cument.getElementById('bigPic').src = dom.src;
+        console.log(this); // window object because function isnt attached to the img but the window
+        console.log(dom); // explicitly attached to the image object (sent in)
+
+        let start = dom.src.lastIndexOf('/gal')+4;
+        let end = dom.src.lastIndexOf('.jpg');
+
+        let whichNum = parseInt(dom.src.substring(start, end));
+        document.getElementById('bigPic').src = imgArr[ dom.getAttribute('data-num') ].src;
+    }
+
 
 </script>
 </head>
@@ -39,13 +52,14 @@
     </div><!--div holding all of the thumbs-->
     <div class="table">
         <div id="loader" style="height:90px; width:400px; overflow:auto; white-space: nowrap;">
-            <img src="media/gal1.jpg" onmouseover="this.style.cursor='pointer';" alt="image"/> 
-            <img src="media/gal2.jpg" onmouseover="this.style.cursor='pointer';" alt="image"/> 
-            <img src="media/gal3.jpg" onmouseover="this.style.cursor='pointer';" alt="image"/> 
-            <img src="media/gal4.jpg" onmouseover="this.style.cursor='pointer';" alt="image"/> 
-            <img src="media/gal5.jpg" onmouseover="this.style.cursor='pointer';" alt="image"/> 
-            <img src="media/gal6.jpg" onmouseover="this.style.cursor='pointer';" alt="image"/>
+            <img src="media/gal1.jpg" data-num="0" onclick="changeMe(this)" onmouseover="this.style.cursor='pointer';" alt="image"/> 
+            <img src="media/gal2.jpg" data-num="1"  onclick="changeMe(this)" onmouseover="this.style.cursor='pointer';" alt="image"/> 
+            <img src="media/gal3.jpg" data-num="2"  onclick="changeMe(this)" onmouseover="this.style.cursor='pointer';" alt="image"/> 
+            <img src="media/gal4.jpg" data-num="3"  onclick="changeMe(this)" onmouseover="this.style.cursor='pointer';" alt="image"/> 
+            <img src="media/gal5.jpg" data-num="4"  onclick="changeMe(this)" onmouseover="this.style.cursor='pointer';" alt="image"/> 
+            <img src="media/gal6.jpg" data-num="5"  onclick="changeMe(this)" onmouseover="this.style.cursor='pointer';" alt="image"/>
         </div>
     </div>
 </body>
 </html>
+    
