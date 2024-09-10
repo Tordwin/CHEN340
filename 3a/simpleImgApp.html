@@ -20,10 +20,19 @@
 	  }
 </style>
 <script>
-	
+    let imgArr=[];
+
+    function init(numImg){
+        for (let i=0, len=numImg; i<len; i++){
+            imgArr[i] = new Image();
+            imgArr[i].src = 'media/gal'+ (i + 1) +'Big.jpg';
+        }
+    }
+
+
 </script>
 </head>
-<body>
+<body onload="init(document.getElementById('loader').getElementsByTagName('img').length);">
     <!--Big Pics-->
     <div id="bigPlace">
         <img src="media/gal1Big.jpg" name="bigPic" alt="big pics!" id="bigPic" />
