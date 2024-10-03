@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function val(){
+            if (document.forms[0].elements[0].value = ""){
+                //turn something red
+                //don't leave
+                return false;
+            }
+            return true;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+        }
+    </script>
+    <script Type="text/javascript">
+        
+    </script>
+</head>
+<body>
+    <form action="page.php" method="get">
+        first name:<input type="text" name="fn"/></br>
+        last name:<input type="text" name="ln"/></br>
+        <input type="radio" name="test" value="Tred" id="f"/> 
+        <label for="f">Click me to see fred</label>
+
+        <input type="radio" name="test" value="Tred" id="of"/> 
+        <label for="of">Click me to see other fred</label>
+
+        </br>
+
+        <textarea rows="10" cols="40" placeholder="Default text here" name="novella"></textarea>
+        <input type="submit" value="click me"/>
+    </form>
+
+    <!--
+    page.php?fn=dan&ln=bog
+    in php
+    $_GET['fn'] (dan)
+    %_POST['fn'] (bust has to be sent as a post on line 10
+    )-->
+</body>
+</html>

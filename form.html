@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function colorChoice(){
+            for(let i=0, len=document.forms[0].color.length; i<len; i++){
+                if (document.forms[0].color[i].checked == true){
+                    document.forms[0].elements[5].value = document.forms[0].color[i].value;
+                    return;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <form id="myForm">
+        <select onchange="selTest(this)">
+        </select
+        <br />
+        <p>Which did you choose?<br />
+        <label 
+
+    </form>
+</body>
+</html>
