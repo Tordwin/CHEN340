@@ -4,51 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 1</title>
+    <script src="script.js"></script>
 </head>
 <body>
     <form id="questionaire">
-        <label for="question1">Question 1 - Men or Women?</label>
-        <select id="question1" name="question1" onchange="next">
-            <option value="oneA">Men</option>
-            <option value="oneB">Women</option>
-        </select>
+        <h1>Find A Date!</h1>
 
-        <label for="questionM2">Question 2 - Facial Hair</label>
-        <select id="questionM2" name="questionM2" onchange="next">
-            <option value="twoA">Yes</option>
-            <option value="twoB">No</option>
-        </select>
+        <div id="startQuestion">
+            <label for="question1">Question 1 - Men or Women?</label>
+            <select id="question1" name="question1" onchange="next(1)">
+                <option value="default" selected>Select an answer below...</option>
+                <option value="Men">Men</option>
+                <option value="Women">Women</option>
+            </select>
+        </div>
 
-        <label for="questionF2">Question 2 - Blonde or Brunette?</label>
-        <select id="questionF2" name="questionF2" onchange="next">
-            <option value="oneA">Blonde</option>
-            <option value="oneB">Brunette</option>
-        </select>
-        
-        <label for="questionM3">Question 3 - Complexion</label>
-        <select id="questionM3" name="questionM3" onchange="next">
-            <option value="twoA">Dark</option>
-            <option value="twoB">Light</option>
-        </select>
-
-        <label for="questionM4">Question 3 - Build?</label>
-        <select id="questionM4" name="questionM4" onchange="next">
-            <option value="twoA">Muscular</option>
-            <option value="twoB">Skinny</option>
-        </select>
-
-        <label for="questionF3">Question 3 - Height?</label>
-        <select id="questionF3" name="questionF3" onchange="next">
-            <option value="oneA">Tall</option>
-            <option value="oneB">Short</option>
-        </select>
-
-        <label for="questionF4">Question 3 - Eyes?</label>
-        <select id="questionF4" name="questionF4" onchange="next">
-            <option value="oneA">Brown</option>
-            <option value="oneB">Blue</option>
-        </select>
+        <div id="nextQuestions"></div>
+        <!--Next question printed below after answer is selected-->
     </form>
-    
+
+    <div id="results">
+        <script src="results.js"></script>
+    </div>
 </body>
 </html>
