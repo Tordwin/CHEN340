@@ -66,29 +66,29 @@ function buildResult(){
 
     if (answers['question3']){
         // Men
-        if (answers['question2'] === 'yes' && answers['question3'] === 'light'){
+        if (answers['question3'] === 'light'){
             result += " and light complextion.";
         }
-        else if (answers['question2'] === 'yes' && answers['question3'] === 'dark'){
+        else if (answers['question3'] === 'dark'){
             result += " and dark complextion.";
         }
-        else if (answers['question2'] === 'no' && answers['question3'] === 'bulky'){
+        else if (answers['question3'] === 'bulky'){
             result += " and a bulky build.";
         }
-        else if (answers['question2'] === 'no' && answers['question3'] === 'skinny'){
+        else if (answers['question3'] === 'skinny'){
             result += " and a skinny build. ";
         }
         // Women
-        else if (answers['question2'] === 'blonde' && answers['question3'] === 'tall'){
+        else if (answers['question3'] === 'tall'){
             result += " and a tall figure. ";
         }
-        else if (answers['question2'] === 'blonde' && answers['question3'] === 'short'){
+        else if (answers['question3'] === 'short'){
             result += " and a short figure. ";
         }
-        else if (answers['question2'] === 'brunette' && answers['question3'] === 'brown'){
+        else if (answers['question3'] === 'brown'){
             result += " and brown eyes. ";
         }
-        else if (answers['question2'] === 'brunette' && answers['question3'] === 'blue'){
+        else if (answers['question3'] === 'blue'){
             result += " and blue eyes. ";
         }
     }
