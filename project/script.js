@@ -163,8 +163,16 @@ function next(questionNum){
 }
 
 // Restart button
-function restartButton(){
-    button
+function resetForm(){
+    const question1 = document.getElementById('question1');
+    question1.value = 'default';
+
+    const nextQuestions = document.getElementById('nextQuestions');
+    while (nextQuestions.firstChild){
+        nextQuestions.removeChild(nextQuestions.firstChild);
+    }
+    answers = {};
+    console.log("RESET")
 }
 
 
