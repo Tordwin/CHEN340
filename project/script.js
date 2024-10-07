@@ -1,5 +1,5 @@
 // Object that stores user's answers
-const answers = {};
+const localStorage = {};
 
 // Used to create form for each prompts
 function createForm(id, text, options, nextQNum){
@@ -11,7 +11,7 @@ function createForm(id, text, options, nextQNum){
     select.setAttribute('id',id);
     select.setAttribute('name',id);
     select.addEventListener('change', function(){
-        answers[id] = select.value;
+        localStorage[id] = select.value;
         next(nextQNum)
     });
     const onStart = document.createElement('option');
@@ -31,75 +31,83 @@ function createForm(id, text, options, nextQNum){
 
 // Used to create result sentence
 function createResult(text){
-    const wrap = document.createElement('div');
+    // Create <p>
     const para = document.createElement('p');
+    // Inserts 'text' into <p>
     para.textContent = text;
-    wrap.appendChild(para);
-    return wrap
+    // Returns <p> object
+    return para
 }
 
 // Function to build sentence
 function buildResult(){
+    // Starting prompt
     let result = "You are looking for a ";
-
-    if (answers['question1'] === 'men') {
+    // Men
+    if (localStorage['question1'] === 'men') {
         result += "man";
     }
-    else if (answers['question1'] === 'women') {
+    // Women
+    else if (localStorage['question1'] === 'women') {
         result += "women";
     }
 
-    if (answers['question2']) {
-        if (answers['question2'] === 'yes'){
+    if (localStorage['question2']) {
+        // Facial hair
+        if (localStorage['question2'] === 'yes'){
             result += " with facial hair";
         }
-        else if (answers['question2'] === 'no'){
+        else if (localStorage['question2'] === 'no'){
             result += " without facial hair";
         }
-        else if (answers['question2'] === 'blonde'){
+        // Blond or brunette
+        else if (localStorage['question2'] === 'blonde'){
             result += " with blonde hair";
         }
-        else if (answers['question2'] === 'brunette'){
+        else if (localStorage['question2'] === 'brunette'){
             result += " with brunette hair";
         }
     }
 
-    if (answers['question3']){
-        // Men
-        if (answers['question3'] === 'light'){
+    if (localStorage['question3']){
+        // Complextion
+        if (localStorage['question3'] === 'light'){
             result += " and light complextion.";
         }
-        else if (answers['question3'] === 'dark'){
+        else if (localStorage['question3'] === 'dark'){
             result += " and dark complextion.";
         }
-        else if (answers['question3'] === 'bulky'){
+        // Build
+        else if (localStorage['question3'] === 'bulky'){
             result += " and a bulky build.";
         }
-        else if (answers['question3'] === 'skinny'){
+        else if (localStorage['question3'] === 'skinny'){
             result += " and a skinny build. ";
         }
-        // Women
-        else if (answers['question3'] === 'tall'){
+        // Height
+        else if (localStorage['question3'] === 'tall'){
             result += " and a tall figure. ";
         }
-        else if (answers['question3'] === 'short'){
+        else if (localStorage['question3'] === 'short'){
             result += " and a short figure. ";
         }
-        else if (answers['question3'] === 'brown'){
+        // Eye color
+        else if (localStorage['question3'] === 'brown'){
             result += " and brown eyes. ";
         }
-        else if (answers['question3'] === 'blue'){
+        else if (localStorage['question3'] === 'blue'){
             result += " and blue eyes. ";
         }
     }
-    console.log(result);
+    // Returns result output (sentence)
+    return result;
 }
 
 // Used to proceed to the next question
 function next(questionNum){
     // Stores the value of question1 into answers object
-    answers['question1'] = document.getElementById('question1').value;
-
+    localStorage['question1'] = document.getElementById('question1').value;
+    // Grabs <div> id = nextQuestions so it can be appended later
     const questions = document.getElementById('nextQuestions');
     let nextDrop;
     if (questionNum === 1) {
@@ -126,13 +134,15 @@ function next(questionNum){
             nextDrop = createForm('question3', 'Question 3 - Eyes? ', {brown: 'Brown', blue: 'Blue'}, 3);
         }
     }
-    else if (questionNum === 3) {
-        result = buildResult();
-        nextDrop = createResult('Results', result)
-    }
-
+    // Appends nextDrop to <div> id = nextQuestions wrapper
     if (nextDrop){
         questions.appendChild(nextDrop);
+    }
+    // Checks if on last question and builds response and sets nextDrop
+    else if (questionNum === 3) {
+        const results = document.getElementById('outputResult');
+        const resultOutput = createResult(buildResult());
+        results.appendChild(resultOutput);
     }
 }
 
