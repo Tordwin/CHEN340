@@ -3,29 +3,42 @@ const localStorage = {};
 
 // Used to create form for each prompts
 function createForm(id, text, options, nextQNum){
+    // Creates wrapper <div>
     const wrap = document.createElement('div');
+    // Creates label <label>
     const label = document.createElement('label');
+    // Setting attributes for
     label.setAttribute('for', id);
+    // Setting name for the label
     label.innerText = text;
+    // Creates select <select>
     const select = document.createElement('select');
+    // Setting attributes for id, name, and adding an Event Listener
     select.setAttribute('id',id);
     select.setAttribute('name',id);
     select.addEventListener('change', function(){
         localStorage[id] = select.value;
         next(nextQNum)
     });
+    // Creates option <option>
     const onStart = document.createElement('option');
+    // Setting the value of option
     onStart.value = '';
+    // Setting the default selected value
     onStart.innerText = 'Select an answer below...'
+    // Appending onStart to select object
     select.appendChild(onStart);
+    // Loop to create more options
     for (const value in options){
         const option = document.createElement('option');
         option.value = value;
         option.innerText = options[value];
         select.appendChild(option);
     }
+    // Wrapping label and select in <div>
     wrap.appendChild(label);
     wrap.appendChild(select);
+    // Returns wrap <div>
     return wrap;
 }
 
@@ -109,7 +122,9 @@ function next(questionNum){
     localStorage['question1'] = document.getElementById('question1').value;
     // Grabs <div> id = nextQuestions so it can be appended later
     const questions = document.getElementById('nextQuestions');
+    // Creating empty variable named nextDrop
     let nextDrop;
+    // Checking question1
     if (questionNum === 1) {
         const getValue = document.getElementById('question1').value;
         if (getValue === 'men') {
@@ -119,6 +134,7 @@ function next(questionNum){
             nextDrop = createForm('question2', 'Question 2 - Blond or Brunette? ', {blonde: 'Blonde', brunette: 'Brunette'}, 2)
         }
     }
+    // Checking question2
     else if (questionNum === 2) {
         const getValue = document.getElementById('question2').value;
         if (getValue === 'yes') {
@@ -138,9 +154,9 @@ function next(questionNum){
     if (nextDrop){
         questions.appendChild(nextDrop);
     }
-    // Checks if on last question and builds response and sets nextDrop
+    // Checks if question is up to 3 (which is the max) and builds response and sets nextDrop
     else if (questionNum === 3) {
-        const results = document.getElementById('outputResult');
+        const results = document.getElementById('results');
         const resultOutput = createResult(buildResult());
         results.appendChild(resultOutput);
     }
