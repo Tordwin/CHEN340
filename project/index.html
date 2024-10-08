@@ -6,6 +6,15 @@
     <title>Project 1</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
+    <!--Checks browser compatibility and redirects if not compatible-->
+    <script>
+        function checkBrowser(){
+            if(!window.fetch || !document.querySelector || !window.Promise){
+                window.location.href = 'redirect.html';
+            }
+        }
+        window.onload(checkBrowser());
+    </script>
 </head>
 <body>
     <!--Form for gathering and creating ideal date-->
