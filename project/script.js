@@ -63,58 +63,58 @@ function buildResult(){
     let result = "You are looking for a ";
     // Men
     if (localStorage.getItem('question1') === 'men') {
-        result += "man";
+        result += "MAN";
     }
     // Women
     else if (localStorage.getItem('question1') === 'women') {
-        result += "women";
+        result += "WOMAN";
     }
 
     if (localStorage['question2']) {
         // Facial hair
         if (localStorage.getItem('question2') === 'yes'){
-            result += " with facial hair";
+            result += " WITH facial hair";
         }
         else if (localStorage.getItem('question2') === 'no'){
-            result += " without facial hair";
+            result += " WITHOUT facial hair";
         }
         // Blond or brunette
         else if (localStorage.getItem('question2') === 'blonde'){
-            result += " with blonde hair";
+            result += " WITH blonde hair";
         }
         else if (localStorage.getItem('question2') === 'brunette'){
-            result += " with brunette hair";
+            result += " WITHOUT brunette hair";
         }
     }
 
     if (localStorage['question3']){
         // Complextion
         if (localStorage.getItem('question3') === 'light'){
-            result += " and light complextion.";
+            result += " and LIGHT complextion.";
         }
         else if (localStorage.getItem('question3') === 'dark'){
-            result += " and dark complextion.";
+            result += " and DARK complextion.";
         }
         // Build
         else if (localStorage.getItem('question3') === 'bulky'){
-            result += " and a bulky build.";
+            result += " and a BULKY build.";
         }
         else if (localStorage.getItem('question3') === 'skinny'){
-            result += " and a skinny build. ";
+            result += " and a SKINNY build. ";
         }
         // Height
         else if (localStorage.getItem('question3') === 'tall'){
-            result += " and a tall figure. ";
+            result += " and a TALL figure. ";
         }
         else if (localStorage.getItem('question3') === 'short'){
-            result += " and a short figure. ";
+            result += " and a SHORT figure. ";
         }
         // Eye color
         else if (localStorage.getItem('question3') === 'brown'){
-            result += " and brown eyes. ";
+            result += " and BROWN eyes. ";
         }
         else if (localStorage.getItem('question3') === 'blue'){
-            result += " and blue eyes. ";
+            result += " and BLUE eyes. ";
         }
     }
     // Returns result output (sentence)
@@ -199,7 +199,7 @@ function next(questionNum){
             imageResult = "media/blue eyes woman.jpg"
         }
         image.src = imageResult;
-        results.appendChild(image);
+        fade(image, 5000);
         localStorage.setItem('outputImage', imageResult);
         setCookie('outputImage', imageResult);
     }
@@ -271,4 +271,22 @@ function validate(event){
         alert('You must be 18 years or older to continue.');
         return false;
     }
+}
+
+function fade(element, duration) {
+    let start = null;
+    element.style.opacity = 0;
+    element.style.display = 'block';
+    element.style.transform = 'rotate(0deg)';
+    function animation(time) {
+        if (!start) start = time;
+        const diff = time - start;
+        const minimum = Math.min(diff / duration, 1);
+        element.style.opacity = minimum;
+        element.style.transform = 'rotate(' + (minimum * 360) + 'deg)';
+        if (minimum < 1) {
+            requestAnimationFrame(animation);
+        }
+    }
+    requestAnimationFrame(animation);
 }
