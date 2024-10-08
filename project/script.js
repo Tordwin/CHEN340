@@ -235,8 +235,6 @@ function validate(event){
     const email = document.getElementById('email').value;
     var emailPattern = /\S+@\S+\.\S+/;
     const age = document.getElementById('age').value;
-    const message = document.getElementById('validationMessage');
-    let result = "";
     // Checks if name is blank
     if (name != ""){
         // Checks if pattern works
@@ -249,24 +247,28 @@ function validate(event){
                 localStorage.setItem('name', name);
                 localStorage.setItem('email', email);
                 localStorage.setItem('age', age);
-                result += "Thank you for participating. Your Form has been submitted!"
-                message.textContent = result;
+                document.getElementById('validateButton').style.color = '#008000';
+                alert('Thank you for submitting your information!')
                 return true;
             }
         }
     }
     // Checks if name is blank
     if (name == ""){
-        result += "Please input your name. ";
+        document.getElementById('validateButton').style.color = '#FF0000';
+        alert('Please input a name.');
+        return false;
     }
     // Checks if pattern works
     if (emailPattern.test(email) == false){
-        result += "Please input a correct email address. ";
+        document.getElementById('validateButton').style.color = '#FF0000';
+        alert('Please input an email address.');
+        return false;
     }
     // Checks if age is less than 18
     if (age < 18){
-        result += "You must be 18 years or older to continue. ";
+        document.getElementById('validateButton').style.color = '#FF0000';
+        alert('You must be 18 years or older to continue.');
+        return false;
     }
-    message.textContent = result;
-    return false;
 }
