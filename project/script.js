@@ -1,6 +1,14 @@
 // Object that stores user's answers
 const localStorage = {};
 
+// Cookies!!
+function setCookie(name, value, date){
+    const now = new Date();
+    now.setTime(now.getTime() + (date * 24 * 60 * 60 * 1000));
+    const expiration = "Expires on " + now.toUTCString();
+    document.cookie = name + "=" + value + ";" + expiration + ";path=/"
+}
+
 // Used to create form for each prompts
 function createForm(id, text, options, nextQNum){
     // Creates wrapper <div>
@@ -127,6 +135,7 @@ function next(questionNum){
     // Checking question1
     if (questionNum === 1) {
         const getValue = document.getElementById('question1').value;
+        setCookie('question1', getValue, 7);
         if (getValue === 'men') {
             nextDrop = createForm('question2', 'Question 2 - Facial Hair? ', {yes: 'Yes', no: 'No'}, 2);
         }
@@ -137,6 +146,7 @@ function next(questionNum){
     // Checking question2
     else if (questionNum === 2) {
         const getValue = document.getElementById('question2').value;
+        setCookie('question2', getValue, 7);
         if (getValue === 'yes') {
             nextDrop = createForm('question3', 'Question 3 - Complexion? ', {light: 'Light', dark: 'Dark'}, 3);
         }
@@ -156,6 +166,8 @@ function next(questionNum){
     }
     // Checks if question is up to 3 (which is the max) and builds response and sets nextDrop
     else if (questionNum === 3) {
+        const getValue = document.getElementById('question3').value;
+        setCookie('question3', getValue, 7);
         const results = document.getElementById('results');
         const resultOutput = createResult(buildResult());
         results.appendChild(resultOutput);
@@ -172,7 +184,9 @@ function resetForm(){
         nextQuestions.removeChild(nextQuestions.firstChild);
     }
     answers = {};
-    console.log("RESET")
+    document.cookie = 'question1=; expires=Fri, 01 Nov 2024 00:00:00 UTC; path=/;'
+    document.cookie = 'question2=; expires=Fri, 01 Nov 2024 00:00:00 UTC; path=/;'
+    document.cookie = 'question3=; expires=Fri, 01 Nov 2024 00:00:00 UTC; path=/;'
 }
 
 // Validate user info
@@ -189,6 +203,9 @@ function validate(event){
     if (name != ""){
         if (emailPattern.test(email) != false){
             if (age >= 18) {
+                setCookie('name', name, 7);
+                setCookie('email', email, 7);
+                setCookie('age', age, 7);
                 result += "Thank you for participating. Your Form has been submitted!"
                 message.textContent = result;
                 return true;
