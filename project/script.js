@@ -1,6 +1,3 @@
-// Object that stores user's answers
-const localStorage = {};
-
 // Cookies!!
 function setCookie(name, value, date){
     const now = new Date();
@@ -18,14 +15,14 @@ function createForm(id, text, options, nextQNum){
     // Setting attributes for
     label.setAttribute('for', id);
     // Setting name for the label
-    label.innerText = text;
+    label.textContent = text;
     // Creates select <select>
     const select = document.createElement('select');
     // Setting attributes for id, name, and adding an Event Listener
     select.setAttribute('id',id);
     select.setAttribute('name',id);
     select.addEventListener('change', function(){
-        localStorage[id] = select.value;
+        localStorage.setItem(id, select.value)
         next(nextQNum)
     });
     // Creates option <option>
@@ -33,14 +30,14 @@ function createForm(id, text, options, nextQNum){
     // Setting the value of option
     onStart.value = '';
     // Setting the default selected value
-    onStart.innerText = 'Select an answer below...'
+    onStart.textContent = 'Select an answer below...'
     // Appending onStart to select object
     select.appendChild(onStart);
     // Loop to create more options
     for (const value in options){
         const option = document.createElement('option');
         option.value = value;
-        option.innerText = options[value];
+        option.textContent = options[value];
         select.appendChild(option);
     }
     // Wrapping label and select in <div>
@@ -65,58 +62,58 @@ function buildResult(){
     // Starting prompt
     let result = "You are looking for a ";
     // Men
-    if (localStorage['question1'] === 'men') {
+    if (localStorage.getItem('question1') === 'men') {
         result += "man";
     }
     // Women
-    else if (localStorage['question1'] === 'women') {
+    else if (localStorage.getItem('question1') === 'women') {
         result += "women";
     }
 
     if (localStorage['question2']) {
         // Facial hair
-        if (localStorage['question2'] === 'yes'){
+        if (localStorage.getItem('question2') === 'yes'){
             result += " with facial hair";
         }
-        else if (localStorage['question2'] === 'no'){
+        else if (localStorage.getItem('question2') === 'no'){
             result += " without facial hair";
         }
         // Blond or brunette
-        else if (localStorage['question2'] === 'blonde'){
+        else if (localStorage.getItem('question2') === 'blonde'){
             result += " with blonde hair";
         }
-        else if (localStorage['question2'] === 'brunette'){
+        else if (localStorage.getItem('question2') === 'brunette'){
             result += " with brunette hair";
         }
     }
 
     if (localStorage['question3']){
         // Complextion
-        if (localStorage['question3'] === 'light'){
+        if (localStorage.getItem('question3') === 'light'){
             result += " and light complextion.";
         }
-        else if (localStorage['question3'] === 'dark'){
+        else if (localStorage.getItem('question3') === 'dark'){
             result += " and dark complextion.";
         }
         // Build
-        else if (localStorage['question3'] === 'bulky'){
+        else if (localStorage.getItem('question3') === 'bulky'){
             result += " and a bulky build.";
         }
-        else if (localStorage['question3'] === 'skinny'){
+        else if (localStorage.getItem('question3') === 'skinny'){
             result += " and a skinny build. ";
         }
         // Height
-        else if (localStorage['question3'] === 'tall'){
+        else if (localStorage.getItem('question3') === 'tall'){
             result += " and a tall figure. ";
         }
-        else if (localStorage['question3'] === 'short'){
+        else if (localStorage.getItem('question3') === 'short'){
             result += " and a short figure. ";
         }
         // Eye color
-        else if (localStorage['question3'] === 'brown'){
+        else if (localStorage.getItem('question3') === 'brown'){
             result += " and brown eyes. ";
         }
-        else if (localStorage['question3'] === 'blue'){
+        else if (localStorage.getItem('question3') === 'blue'){
             result += " and blue eyes. ";
         }
     }
@@ -127,7 +124,7 @@ function buildResult(){
 // Used to proceed to the next question
 function next(questionNum){
     // Stores the value of question1 into answers object
-    localStorage['question1'] = document.getElementById('question1').value;
+    localStorage.setItem('question1', document.getElementById('question1').value);
     // Grabs <div> id = nextQuestions so it can be appended later
     const questions = document.getElementById('nextQuestions');
     // Creating empty variable named nextDrop
@@ -187,7 +184,7 @@ function resetForm(){
         nextQuestions.removeChild(nextQuestions.firstChild);
     }
     // Resets localStorage
-    answers = {};
+    localStorage.clear();
     // Resets cookies
     document.cookie = 'question1=; expires=Fri, 01 Nov 2024 00:00:00 UTC; path=/;'
     document.cookie = 'question2=; expires=Fri, 01 Nov 2024 00:00:00 UTC; path=/;'
@@ -235,8 +232,3 @@ function validate(event){
     message.textContent = result;
     return false;
 }
-
-
-// DO NOT USE INNERTEXT or inner anything (FIX IT)
-// {} IS NOt LOCALSTORAGE 
-// use localStorage.setItem to create an item
