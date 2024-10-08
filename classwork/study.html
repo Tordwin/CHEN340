@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script>
+        function init(){
+            // methods - createElement, createTextNode, setAttribute
+            // appendChild, removeChild, insertBefore, replaceChild, cloneNode
+            var x = document.createElement('button');
+            x.setAttribute('id', 'test');
+            // x.id = "test";
+            //x.setAttribute('onclick', function(){doIt('hello');});
+            x.setAttribute('onclick', 'doIt("Hello")');
+            x.appendChild(document.createTextNode("look me, no hands..."));
+            
+            // Must need [0] as it tells which body to append to
+            document.getElementsByTagName('body')[0].appendChild(x);
+
+            document.getElementById('one').firstChild.nodeValue = "fred";
+
+            // insertBefore
+            // parent.insertBefore(ele, childOfParentToGoInFrontOf);
+            document.getElementsByTagName('p')[1].insertBefore(x, 
+                document.getElementsByTagName('p')[1].firstChild);
+        }
+
+        function val(){
+            // check stuff
+            // MUST HAVE RETURN on submit
+            return false;
+        }
+    </script>
+</head>
+<body onload="init()">
+    <div>
+        <p>One</p>
+        <p>Two</p>
+    </div> 
+    <form onsubmit="val()">
+        fn: <input type = "text" placeholder="put name here" name="fn"/>
+        <input type="submit" value="click me"/>
+    </form>
+    <p id="one" onclick="this.firstChild.nodeValue = 'dif';">Hello</p>
+</body>
+</html>

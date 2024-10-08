@@ -237,3 +237,4 @@ function validate(event){
 }
 
 
+// DO NOT USE INNERTEXT or inner anything (FIX IT)
