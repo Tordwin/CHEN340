@@ -1,0 +1,22 @@
+form {
+    border: 1px black solid;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(#00FFFF, #FFC0CB)
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
