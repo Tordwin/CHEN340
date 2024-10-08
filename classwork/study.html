@@ -24,6 +24,18 @@
             // parent.insertBefore(ele, childOfParentToGoInFrontOf);
             document.getElementsByTagName('p')[1].insertBefore(x, 
                 document.getElementsByTagName('p')[1].firstChild);
+
+            document.getElementsByTagName('p')[0].onclick = function(){
+                console.log('you did it');
+            }
+            
+            document.getElementsByTagName('p')[1].onclick = other;
+            //dom.addEventListener('click', function() {args('hi');});
+        }
+
+        
+        function other(){
+            console.log('no arg');
         }
 
         function val(){
@@ -39,7 +51,7 @@
         <p>Two</p>
     </div> 
     <form onsubmit="val()">
-        fn: <input type = "text" placeholder="put name here" name="fn"/>
+        fn: <input type = "text" placeholder="put name here" id="fn" name="fn"/>
         <input type="submit" value="click me"/>
     </form>
     <p id="one" onclick="this.firstChild.nodeValue = 'dif';">Hello</p>

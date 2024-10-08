@@ -238,3 +238,5 @@ function validate(event){
 
 
 // DO NOT USE INNERTEXT or inner anything (FIX IT)
+// {} IS NOt LOCALSTORAGE 
+// use localStorage.setItem to create an item
