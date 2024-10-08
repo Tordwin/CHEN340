@@ -201,6 +201,8 @@ function next(questionNum){
         }
         image.src = imageResult;
         results.appendChild(image);
+        localStorage.setItem('outputImage', imageResult);
+        setCookie('outputImage', imageResult);
     }
 }
 
@@ -219,6 +221,10 @@ function resetForm(){
     document.cookie = 'question1=; expires=Fri, 01 Nov 2024 00:00:00 UTC; path=/;'
     document.cookie = 'question2=; expires=Fri, 01 Nov 2024 00:00:00 UTC; path=/;'
     document.cookie = 'question3=; expires=Fri, 01 Nov 2024 00:00:00 UTC; path=/;'
+    document.cookie = 'outputImage=; expires=Fri, 01 Nov 2024 00:00:00 UTC; path=/;'
+    document.cookie = 'age=; expires=Fri, 01 Nov 2024 00:00:00 UTC; path=/;'
+    document.cookie = 'email=; expires=Fri, 01 Nov 2024 00:00:00 UTC; path=/;'
+    document.cookie = 'name=; expires=Fri, 01 Nov 2024 00:00:00 UTC; path=/;'
 }
 
 // Validate user info
@@ -241,6 +247,9 @@ function validate(event){
                 setCookie('name', name, 7);
                 setCookie('email', email, 7);
                 setCookie('age', age, 7);
+                localStorage.setItem('name', name);
+                localStorage.setItem('email', email);
+                localStorage.setItem('age', age);
                 result += "Thank you for participating. Your Form has been submitted!"
                 message.textContent = result;
                 return true;
