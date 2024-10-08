@@ -135,6 +135,7 @@ function next(questionNum){
     // Checking question1
     if (questionNum === 1) {
         const getValue = document.getElementById('question1').value;
+        // Creates cookie
         setCookie('question1', getValue, 7);
         if (getValue === 'men') {
             nextDrop = createForm('question2', 'Question 2 - Facial Hair? ', {yes: 'Yes', no: 'No'}, 2);
@@ -146,6 +147,7 @@ function next(questionNum){
     // Checking question2
     else if (questionNum === 2) {
         const getValue = document.getElementById('question2').value;
+        // Creates cookie
         setCookie('question2', getValue, 7);
         if (getValue === 'yes') {
             nextDrop = createForm('question3', 'Question 3 - Complexion? ', {light: 'Light', dark: 'Dark'}, 3);
@@ -167,6 +169,7 @@ function next(questionNum){
     // Checks if question is up to 3 (which is the max) and builds response and sets nextDrop
     else if (questionNum === 3) {
         const getValue = document.getElementById('question3').value;
+        // Creates cookie
         setCookie('question3', getValue, 7);
         const results = document.getElementById('results');
         const resultOutput = createResult(buildResult());
@@ -183,7 +186,9 @@ function resetForm(){
     while (nextQuestions.firstChild){
         nextQuestions.removeChild(nextQuestions.firstChild);
     }
+    // Resets localStorage
     answers = {};
+    // Resets cookies
     document.cookie = 'question1=; expires=Fri, 01 Nov 2024 00:00:00 UTC; path=/;'
     document.cookie = 'question2=; expires=Fri, 01 Nov 2024 00:00:00 UTC; path=/;'
     document.cookie = 'question3=; expires=Fri, 01 Nov 2024 00:00:00 UTC; path=/;'
@@ -200,8 +205,11 @@ function validate(event){
     const message = document.getElementById('validationMessage');
     let result = "";
 
+    // Checks if name is blank
     if (name != ""){
+        // Checks if pattern works
         if (emailPattern.test(email) != false){
+            // Checks if age is greater than or equal to 18
             if (age >= 18) {
                 setCookie('name', name, 7);
                 setCookie('email', email, 7);
@@ -212,13 +220,15 @@ function validate(event){
             }
         }
     }
-
+    // Checks if name is blank
     if (name == ""){
         result += "Please input your name. ";
     }
+    // Checks if pattern works
     if (emailPattern.test(email) == false){
         result += "Please input a correct email address. ";
     }
+    // Checks if age is less than 18
     if (age < 18){
         result += "You must be 18 years or older to continue. ";
     }
