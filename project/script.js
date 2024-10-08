@@ -129,6 +129,8 @@ function next(questionNum){
     const questions = document.getElementById('nextQuestions');
     // Creating empty variable named nextDrop
     let nextDrop;
+    // Image
+    let imageResult;
     // Checking question1
     if (questionNum === 1) {
         const getValue = document.getElementById('question1').value;
@@ -171,6 +173,33 @@ function next(questionNum){
         const results = document.getElementById('results');
         const resultOutput = createResult(buildResult());
         results.appendChild(resultOutput);
+        let image = document.createElement('img');
+        if (getValue === "Light"){
+            imageResult = "project\media\light man.jpg"
+        }
+        else if (getValue === "Dark"){
+            imageResult = "project\media\dark man.jpg"
+        }
+        else if (getValue === "Bulky"){
+            imageResult = "project\media\bulky man.jpg"
+        }
+        else if (getValue === "Skinny"){
+            imageResult = "project\media\skinny man.jpg"
+        }
+        else if (getValue === "Tall"){
+            imageResult = "project\media\tall woman.jpg"
+        }
+        else if (getValue === "Short"){
+            imageResult = "project\media\short woman.jpg"
+        }
+        else if (getValue === "Brown"){
+            imageResult = "project\media\brown eyes woman.jpg"
+        }
+        else if (getValue === "Blue"){
+            imageResult = "project\media\blue eyes woman.jpg"
+        }
+        image.src = imageResult;
+        console.log(image.src);
     }
 }
 
