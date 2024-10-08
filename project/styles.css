@@ -32,6 +32,7 @@ button {
     padding: 10px;
     text-align: center;
     background: linear-gradient(#00FFFF, #FFC0CB);
+    position: relative;
 }
 
 #outputImage {

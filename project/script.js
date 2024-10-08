@@ -173,8 +173,7 @@ function next(questionNum){
         results.appendChild(resultOutput);
         // Image output
         let imageResult;
-        let image = document.createElement('img');
-        image.id = "outputImage";
+        let image = document.getElementById('outputImage');
         if (getValue === "light"){
             imageResult = "media/light man.jpg"
         }
@@ -229,15 +228,15 @@ function resetForm(){
 
 // Validate user info
 function validate(event){
+    // Prevents page from refreshing
     event.preventDefault();
-
+    // Getting Id's
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     var emailPattern = /\S+@\S+\.\S+/;
     const age = document.getElementById('age').value;
     const message = document.getElementById('validationMessage');
     let result = "";
-
     // Checks if name is blank
     if (name != ""){
         // Checks if pattern works
