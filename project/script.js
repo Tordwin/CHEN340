@@ -162,7 +162,7 @@ function next(questionNum){
     }
 }
 
-// Restart button
+// Reset button
 function resetForm(){
     const question1 = document.getElementById('question1');
     question1.value = 'default';
@@ -173,6 +173,40 @@ function resetForm(){
     }
     answers = {};
     console.log("RESET")
+}
+
+// Validate user info
+function validate(event){
+    event.preventDefault();
+
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    var emailPattern = /\S+@\S+\.\S+/;
+    const age = document.getElementById('age').value;
+    const message = document.getElementById('validationMessage');
+    let result = "";
+
+    if (name != ""){
+        if (emailPattern.test(email) != false){
+            if (age >= 18) {
+                result += "Thank you for participating. Your Form has been submitted!"
+                message.textContent = result;
+                return true;
+            }
+        }
+    }
+
+    if (name == ""){
+        result += "Please input your name. ";
+    }
+    if (emailPattern.test(email) == false){
+        result += "Please input a correct email address. ";
+    }
+    if (age < 18){
+        result += "You must be 18 years or older to continue. ";
+    }
+    message.textContent = result;
+    return false;
 }
 
 
