@@ -173,7 +173,9 @@ function next(questionNum){
         results.appendChild(resultOutput);
         // Image output
         let imageResult;
+        // Id of outputImage
         let image = document.getElementById('outputImage');
+        // If statements for different outputs
         if (getValue === "light"){
             imageResult = "media/light man.jpg"
         }
@@ -198,7 +200,9 @@ function next(questionNum){
         else if (getValue === "blue"){
             imageResult = "media/blue eyes woman.jpg"
         }
+        // Fades out default image
         outFade();
+        // Function to input throught setTimeout
         function changeSRC(){
             image.src = imageResult;
             console.log('img');
@@ -207,7 +211,9 @@ function next(questionNum){
             threesixty(image);
             console.log('360');
         }
-        setTimeout(changeSRC,2000)
+        // Times out for 2 seconds before running changeSRC()
+        setTimeout(changeSRC,2000);
+        // Sets image in localStorage and Cookies
         localStorage.setItem('outputImage', imageResult);
         setCookie('outputImage', imageResult);
     }
@@ -297,6 +303,7 @@ function threesixty(element){
     requestAnimationFrame(rotate)
 }
 
+// Fade out animation
 function outFade(){
     let element = document.getElementById('outputImage');
     function fadeOut(){
@@ -307,6 +314,7 @@ function outFade(){
     requestAnimationFrame(fadeOut)
 }
 
+// Fade in animation
 function inFade() {
     let element = document.getElementById('outputImage');
     function fadeIn() {
