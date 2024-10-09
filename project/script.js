@@ -80,10 +80,10 @@ function buildResult(){
         }
         // Blonde or brunette
         else if (localStorage.getItem('question2') === 'blonde'){
-            result += " WITH blonde hair";
+            result += " with BLONDE hair";
         }
         else if (localStorage.getItem('question2') === 'brunette'){
-            result += " WITHOUT brunette hair";
+            result += " with BRUNETTE hair";
         }
     }
 
