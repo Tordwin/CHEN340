@@ -198,8 +198,16 @@ function next(questionNum){
         else if (getValue === "blue"){
             imageResult = "media/blue eyes woman.jpg"
         }
-        image.src = imageResult;
-        fade(image, 5000);
+        outFade();
+        function changeSRC(){
+            image.src = imageResult;
+            console.log('img');
+            inFade();
+            console.log('infade');
+            threesixty(image);
+            console.log('360');
+        }
+        setTimeout(changeSRC,2000)
         localStorage.setItem('outputImage', imageResult);
         setCookie('outputImage', imageResult);
     }
@@ -273,20 +281,38 @@ function validate(event){
     }
 }
 
-function fade(element, duration) {
-    let start = null;
-    element.style.opacity = 0;
-    element.style.display = 'block';
-    element.style.transform = 'rotate(0deg)';
-    function animation(time) {
-        if (!start) start = time;
-        const diff = time - start;
-        const minimum = Math.min(diff / duration, 1);
-        element.style.opacity = minimum;
-        element.style.transform = 'rotate(' + (minimum * 360) + 'deg)';
-        if (minimum < 1) {
-            requestAnimationFrame(animation);
+// Animation
+function threesixty(element){
+    let angle = 0;
+    function rotate(){
+        angle += 1;
+        element.style.transform = 'rotate(' + angle + 'deg)';
+        if (angle < 360){
+            requestAnimationFrame(rotate);
+        } else {
+            cancelAnimationFrame(requestAnimationFrame(rotate));
+            angle = 0;
         }
     }
-    requestAnimationFrame(animation);
+    requestAnimationFrame(rotate)
+}
+
+function outFade(){
+    let element = document.getElementById('outputImage');
+    function fadeOut(){
+        element.style.opacity = 0;
+        element.style.transition = "opacity 2s ease-in";
+        requestAnimationFrame(fadeOut);
+    }
+    requestAnimationFrame(fadeOut)
+}
+
+function inFade() {
+    let element = document.getElementById('outputImage');
+    function fadeIn() {
+        element.style.opacity = 1;
+        element.style.transition = "opacity 2s ease-in";
+        requestAnimationFrame(fadeIn);
+    }
+    requestAnimationFrame(fadeIn);
 }
