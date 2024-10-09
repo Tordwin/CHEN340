@@ -78,7 +78,7 @@ function buildResult(){
         else if (localStorage.getItem('question2') === 'no'){
             result += " WITHOUT facial hair";
         }
-        // Blond or brunette
+        // Blonde or brunette
         else if (localStorage.getItem('question2') === 'blonde'){
             result += " WITH blonde hair";
         }
@@ -138,7 +138,7 @@ function next(questionNum){
             nextDrop = createForm('question2', 'Question 2 - Facial Hair? ', {yes: 'Yes', no: 'No'}, 2);
         }
         else if (getValue === 'women') {
-            nextDrop = createForm('question2', 'Question 2 - Blond or Brunette? ', {blonde: 'Blonde', brunette: 'Brunette'}, 2)
+            nextDrop = createForm('question2', 'Question 2 - Blonde or Brunette? ', {blonde: 'Blonde', brunette: 'Brunette'}, 2)
         }
     }
     // Checking question2
