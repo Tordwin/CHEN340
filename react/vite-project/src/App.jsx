@@ -5,9 +5,9 @@
 import { useState } from 'react'
 
 // load my comp
-import Welcome from '/components/functionalComp'
+import Welcome from './components/functionalComp'
 import InLineComp from './components/otherComp'
-import Title from './components/title'
+import Title from './components/Title'
 
 import './App.css'
 
@@ -37,8 +37,6 @@ function App(){
     return (
         <>
             <Title obj = {myObj}/>
-            <h1>{myObj.title}</h1>
-            <p>{myObj.description}</p>
             <InLineComp name="fred" age="53"/>
             <Welcome name="dan" job="talk"/>
         </>
