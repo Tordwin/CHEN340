@@ -18,7 +18,7 @@ function App(){
     //flag for if it is loaded yet
     const [loaded, setLoaded] = useState(false);
     //obj to hold my returned data
-    const [obj, setMyObj] = useState();
+    const [myObj, setMyObj] = useState();
     
     //write my (App) methods
     //let's go faux the date...
@@ -32,7 +32,7 @@ function App(){
         setLoaded(true);
     }
 
-    if (!loaded) return (<>Loading... <button/></>)
+    if (!loaded) return (<>Loading... <button onClick={getData}>Click Me!</button></>)
 
     return (
         <>
@@ -42,3 +42,5 @@ function App(){
         </>
     );
 }
+
+export default App
