@@ -5,12 +5,12 @@ import {useState, useEffect} from 'react'
 import getData from './utils/getData'
 import './App.css'
 
-//methods
+//App (component)
 const App=()=>{
   //state vars
   //const {set, get} = useState(init);
-  const [loadedAbout, getLoadedAbout] = useState();
-  const [about, getAbout] = useState();
+  const [loadedAbout, setLoadedAbout] = useState();
+  const [about, setAbout] = useState();
 
   useEffect( () =>{
     //get the data
@@ -24,15 +24,27 @@ const App=()=>{
 
   if (!loadedAbout) return (
     <>
-      <h1>Loading...</h1>
+      <div className="stick">
+        <h1>Welcome to the iSchool Website!</h1>
+        <div>Loading...</div>
+      </div>
     </>
   );
 
-
-//App
+//with data
   return (
     <>
-      I{about.title}
+      <div className="stick">
+        <h1>Welcome to the iSchool Website!</h1>
+        <div>...Menu...</div>
+      </div>
+      <div className='About'>
+        <h2>{about.title}</h2>
+        <h3>{about.description}</h3>
+        <div className='quote'>{about.quote}</div>
+        <h4>--{about.quoteArthur}</h4>
+      </div>
+
     </>
   )
 }
