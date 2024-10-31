@@ -4,6 +4,9 @@ import {useState, useEffect} from 'react'
 //getData
 import getData from './utils/getData'
 import './App.css'
+import About from './components/about'
+import People from './components/people'
+import PeopleTabs from './components/peopleTabs'
 
 //App (component)
 const App=()=>{
@@ -38,13 +41,11 @@ const App=()=>{
         <h1>Welcome to the iSchool Website!</h1>
         <div>...Menu...</div>
       </div>
-      <div className='About'>
-        <h2>{about.title}</h2>
-        <h3>{about.description}</h3>
-        <div className='quote'>{about.quote}</div>
-        <h4>--{about.quoteArthur}</h4>
-      </div>
-
+      <About aboutData={about}/>
+      <hr/>
+      <People/>
+      <hr/>
+      <PeopleTabs/>
     </>
   )
 }
