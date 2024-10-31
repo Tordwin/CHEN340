@@ -49,7 +49,6 @@ const People = () => {
                 </div>
                 )}
             </div>
-
         </>
     )
 }
