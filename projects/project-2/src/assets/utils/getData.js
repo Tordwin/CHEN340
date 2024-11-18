@@ -1,6 +1,6 @@
 //Degrees: https://ischool.gccis.rit.edu/api/degrees/
 //Minors: https://ischool.gccis.rit.edu/api/minors/
-//Employments: https://ischool.gccis.rit.edu/api/employment/
+//Employment: https://ischool.gccis.rit.edu/api/employment/
 //People: https://ischool.gccis.rit.edu/api/people/
 
 

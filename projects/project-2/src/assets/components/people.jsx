@@ -1,6 +1,8 @@
 import {useState, useEffect} from 'react'
 import ''
 
+//People: https://ischool.gccis.rit.edu/api/people/
+
 import getData from '../utils/getData'
 
 //component
