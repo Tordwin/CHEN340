@@ -7,7 +7,15 @@ import './App.css'
 //Import HEADER & FOOTER HERE
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
+//Get Data
+import getData from './utils/getData.js'
+import Degrees from './components/degrees.jsx'
+import Employment from './components/employment.jsx'
+import Minors from './components/minors.jsx'
+import People from './components/people.jsx'
+import Courses from './components/courses.jsx'
 
+//App
 function App() {
   const [count, setCount] = useState(0)
 
