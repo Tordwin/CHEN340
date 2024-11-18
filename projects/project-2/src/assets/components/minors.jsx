@@ -1,5 +1,6 @@
+//Load
 import {useState, useEffect} from 'react'
-import ''
+//Import CSS HERE
 
 //Minors: https://ischool.gccis.rit.edu/api/minors/
 
