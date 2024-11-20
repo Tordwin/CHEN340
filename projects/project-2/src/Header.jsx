@@ -2,26 +2,25 @@
 import {Component} from 'react'
 //Import CSS HERE
 
-
 class Header extends Component {
     render() {
         return (
             <nav id="navigation">
                 <ul id="navbar">
                     <li id="about">
-                        <a href="#">About</a>
+                        <a href="/about">About</a>
                     </li>
                     <li id="degrees">
-                        <a href="#">Degrees</a>
+                        <a href="/degrees">Degrees</a>
                     </li>
                     <li id="employment">
-                        <a href="#">Employment</a>
+                        <a href="/employment">Employment</a>
                     </li>
                     <li id="minors">
-                        <a href="#">Minors</a>
+                        <a href="/minors">Minors</a>
                     </li>
                     <li id="people">
-                        <a href="#">People</a>
+                        <a href="/people">People</a>
                     </li>
                 </ul>
             </nav>
