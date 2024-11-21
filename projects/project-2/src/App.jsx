@@ -1,7 +1,5 @@
-//Load
-import {useState, useEffect} from 'react'
 //Import CSS HERE
-import './App.css'
+import './components/css/App.css'
 //Import HEADER & FOOTER HERE
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'

@@ -1,32 +1,41 @@
 //Load
 import {useState, useEffect} from 'react'
+import getData from '../utils/getData'
 //Import CSS HERE
 
-//People: https://ischool.gccis.rit.edu/api/people/
-
-import getData from '../utils/getData'
-
-//component
 const People = () => {
-    //my vars
+    //Variables
     const [peopleObj, setPeopleObj] = useState();
     const [loaded, setLoaded] = useState(0);
     //get some data
     useEffect(() => {
         getData(`people/`)
             .then((json)=>{
-                console.log("people loaded", json);
+                console.log("People page has loaded", json);
                 setPeopleObj(json);
                 setLoaded(true);
             })
     }, []);
 
-    //first case (no data)
     if (!loaded) return (
         <>
-            <h2>People Loading...</h2>
+            <h2>People Page is Loading...</h2>
         </>
     )
+
+    //Fields to return:
+    //username
+    //name
+    //tagline
+    //imagePath
+    //title
+    //interestArea
+    //office
+    //website
+    //phone
+    //email
+    //twitter
+    //facebook
 
     return (
         <>

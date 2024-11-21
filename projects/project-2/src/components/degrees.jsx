@@ -3,7 +3,6 @@ import {useState, useEffect} from 'react';
 import getData from '../utils/getData';
 //Import CSS HERE
 
-
 const Degrees = () => {
     //Variables
     const [degreesObj, setDegreesObj] = useState();

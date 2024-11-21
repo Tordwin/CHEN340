@@ -3,8 +3,6 @@ import {useState, useEffect} from 'react'
 import getData from '../utils/getData';
 //Import CSS HERE
 
-//Employment: https://ischool.gccis.rit.edu/api/employment/
-
 const Employment = () => {
     //Variables
     const [employmentObj, setEmploymentObj] = useState();
