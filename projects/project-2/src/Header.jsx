@@ -7,9 +7,6 @@ class Header extends Component {
         return (
             <nav id="navigation">
                 <ul id="navbar">
-                    <li id="about">
-                        <a href="/about">About</a>
-                    </li>
                     <li id="degrees">
                         <a href="/degrees">Degrees</a>
                     </li>

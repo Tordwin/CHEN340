@@ -1,5 +1,5 @@
 //Load
-import {useState, useEffect} from 'react'
+import {useState, useEffect} from 'react';
 import getData from '../utils/getData';
 //Import CSS HERE
 
@@ -18,7 +18,7 @@ const About = () => {
 
     if (!loaded) return (
         <>
-            <h2>About Page is Loading...</h2>
+            <h2>Home Page is Loading...</h2>
         </>
     )
 
