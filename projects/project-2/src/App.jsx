@@ -1,14 +1,11 @@
 //Load
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import {useState, useEffect} from 'react'
 //Import CSS HERE
 import './App.css'
 //Import HEADER & FOOTER HERE
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
 //Get Data
-import getData from './utils/getData.js'
 import Degrees from './components/degrees.jsx'
 import Employment from './components/employment.jsx'
 import Minors from './components/minors.jsx'
@@ -17,10 +14,10 @@ import About from './components/about.jsx'
 import Home from './components/home.jsx'
 
 //App
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
+  //Variables
   let component
+  //Switch cases
   switch(window.location.pathname) {
     case "/":
       component = <Home />
@@ -28,12 +25,23 @@ function App() {
       case "/about":
         component = <About />
         break
-
+        case "/degrees":
+          component = <Degrees />
+          break
+          case "/employment":
+            component = <Employment />
+            break
+            case "/minors":
+              component = <Minors />
+              break
+              case "/people":
+                component = <People />
+                break
   }
 
   return (
     <>
-      <h1>Welcome to ISchool</h1>
+      <h1><a href='/home'>Welcome to ISchool</a></h1>
       <Header></Header>
       {component}
       <Footer></Footer>

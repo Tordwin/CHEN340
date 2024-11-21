@@ -8,7 +8,13 @@ class Footer extends Component
     {
         return (
             <div id='footer'>
-                <footer><p>This is my footer</p></footer>
+                <footer>
+                    <ul>
+                        <li>Edwin Chen</li>
+                        <li>React - Project 2</li>
+                        <li>ISTE.340.01-2</li>
+                    </ul>
+                </footer>
             </div>
         )
     }
