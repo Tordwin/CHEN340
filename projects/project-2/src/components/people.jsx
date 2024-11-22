@@ -2,6 +2,7 @@
 import {useState, useEffect} from 'react'
 import getData from '../utils/getData'
 //Import CSS HERE
+import './css/People.css'
 
 const People = () => {
     //Variables

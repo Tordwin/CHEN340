@@ -2,6 +2,7 @@
 import {useState, useEffect} from 'react'
 import getData from '../utils/getData';
 //Import CSS HERE
+import './css/Employment.css'
 
 const Employment = () => {
     //Variables
@@ -18,7 +19,7 @@ const Employment = () => {
 
     if (!loaded) return (
         <>
-            <h2>About Page is Loading...</h2>
+            <h2>Employment Page is Loading...</h2>
         </>
     )
 

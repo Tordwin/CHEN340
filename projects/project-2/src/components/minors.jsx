@@ -7,7 +7,7 @@ const Minors = () => {
     //Variables
     const [minorsObj, setMinorsObj] = useState();
     const [loaded, setLoaded] = useState(0);
-    //Grabbing data\
+    //Grabbing data
     useEffect(() => {
         getData('minors/').then((json) => {
             console.log("Minors page has loaded", json);
