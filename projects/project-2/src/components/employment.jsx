@@ -32,7 +32,17 @@ const Employment = () => {
 
     return (
         <>
-        
+            <div id='Employment'>
+                <p>Introduction: </p>
+                <p>Statistics: </p>
+                <p>Employers: </p>
+                <p>Careers: </p>
+                <ul>
+                    <li>Career 1</li>
+                </ul>
+                <p>Coop Table: </p>
+                <p>Employment Table: </p>
+            </div>
         </>
     )
 }

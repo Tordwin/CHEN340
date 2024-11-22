@@ -2,6 +2,7 @@
 //Minors: https://ischool.gccis.rit.edu/api/minors/
 //Employment: https://ischool.gccis.rit.edu/api/employment/
 //People: https://ischool.gccis.rit.edu/api/people/
+//Courses: https://ischool.gccis.rit.edu/api/courses/
 
 
 //This is the base of my proxy to grab data from the API

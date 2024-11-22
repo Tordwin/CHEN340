@@ -7,7 +7,7 @@ const Minors = () => {
     //Variables
     const [minorsObj, setMinorsObj] = useState();
     const [loaded, setLoaded] = useState(0);
-    //Grabbing data
+    //Grabbing data\
     useEffect(() => {
         getData('minors/').then((json) => {
             console.log("Minors page has loaded", json);
@@ -22,7 +22,7 @@ const Minors = () => {
         </>
     )
 
-    //Fields to return:
+    //Fields to return (Minors):
     //name
     //title
     //description
@@ -30,7 +30,15 @@ const Minors = () => {
 
     return (
         <>
-            
+            <div id='Minors'>
+                <p>Minor Name: </p>
+                <p>Minor Title: </p>
+                <p>Minor Description: </p>
+                <p>Minor's Courses: </p>
+                <ul>
+                    <li>Course 1</li>
+                </ul>
+            </div>
         </>
     )
 }
