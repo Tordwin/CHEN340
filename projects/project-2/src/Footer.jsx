@@ -7,13 +7,11 @@ class Footer extends Component
     render() 
     {
         return (
-            <div id='footer'>
+            <div id='wrapper'>
                 <footer>
-                    <ul>
-                        <li>Edwin Chen</li>
-                        <li>React - Project 2</li>
-                        <li>ISTE.340.01-2</li>
-                    </ul>
+                    <p>Edwin Chen</p>
+                    <p>React - Project 2</p>
+                    <p>ISTE.340.01-2</p>
                 </footer>
             </div>
         )

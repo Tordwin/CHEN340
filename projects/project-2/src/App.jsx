@@ -35,7 +35,6 @@ const App = () => {
 
   return (
     <>
-      <h1><a href='/home'>Welcome to ISchool</a></h1>
       <Header></Header>
       {component}
       <Footer></Footer>
