@@ -20,7 +20,7 @@ const People = () => {
 
     if (!loaded) return (
         <>
-            <h2>People Page is Loading...</h2>
+            <h2 id='loading'>People Page is Loading...</h2>
         </>
     )
 

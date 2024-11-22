@@ -19,7 +19,7 @@ const Degrees = () => {
 
     if (!loaded) return (
         <>
-            <h2>Degrees Page is Loading...</h2>
+            <h2 id='loading'>Degrees Page is Loading...</h2>
         </>
     )
 

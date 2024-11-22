@@ -19,7 +19,7 @@ const Employment = () => {
 
     if (!loaded) return (
         <>
-            <h2>Employment Page is Loading...</h2>
+            <h2 id='loading'>Employment Page is Loading...</h2>
         </>
     )
 

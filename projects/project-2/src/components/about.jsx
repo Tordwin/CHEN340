@@ -19,7 +19,7 @@ const About = () => {
 
     if (!loaded) return (
         <>
-            <h2>Home Page is Loading...</h2>
+            <h2 id='loading'>Home Page is Loading...</h2>
         </>
     )
 
@@ -31,11 +31,11 @@ const About = () => {
 
     return (
         <>
-            <body>
+            <body id='bodyContainer'>
                 <h2>{aboutObj.title}</h2>
-                <p>{aboutObj.description}</p>
-                <h4>{aboutObj.quote}</h4>
-                <p id="author">{aboutObj.quoteAutho}</p>
+                <p id='description'>{aboutObj.description}</p>
+                <h3>"{aboutObj.quote}"</h3>
+                <p id='author'>-{aboutObj.quoteAuthor}</p>
             </body>
         </>
     )

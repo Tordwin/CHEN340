@@ -18,7 +18,7 @@ const Minors = () => {
 
     if (!loaded) return (
         <>
-            <h2>Minors Page is Loading...</h2>
+            <h2 id='loading'>Minors Page is Loading...</h2>
         </>
     )
 
