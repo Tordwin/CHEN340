@@ -30,10 +30,12 @@ const About = () => {
 
     return (
         <>
-            <h2>{aboutObj.title}</h2>
-            <p>{aboutObj.description}</p>
-            <h4>{aboutObj.quote}</h4>
-            <p id="author">{aboutObj.quoteAutho}</p>
+            <body>
+                <h2>{aboutObj.title}</h2>
+                <p>{aboutObj.description}</p>
+                <h4>{aboutObj.quote}</h4>
+                <p id="author">{aboutObj.quoteAutho}</p>
+            </body>
         </>
     )
 }

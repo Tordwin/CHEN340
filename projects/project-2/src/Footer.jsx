@@ -1,6 +1,5 @@
 //Load
 import {Component} from 'react'
-//Import CSS HERE
 
 class Footer extends Component 
 {

@@ -30,15 +30,18 @@ const Minors = () => {
 
     return (
         <>
-            <div id='Minors'>
-                <p>Minor Name: </p>
-                <p>Minor Title: </p>
-                <p>Minor Description: </p>
-                <p>Minor's Courses: </p>
-                <ul>
-                    <li>Course 1</li>
-                </ul>
-            </div>
+            <body>
+                <div id='Minors'>
+                    <h2>Minors</h2>
+                    <p>Minor Name: </p>
+                    <p>Minor Title: </p>
+                    <p>Minor Description: </p>
+                    <p>Minor's Courses: </p>
+                    <ul>
+                        <li>Course 1</li>
+                    </ul>
+                </div>
+            </body>
         </>
     )
 }

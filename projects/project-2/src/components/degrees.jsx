@@ -34,35 +34,37 @@ const Degrees = () => {
 
     return (
         <>
-            <div id='degreesContainer'>
-                <h2>Undergraduate</h2>
-                    <ul>
-                        <li>
-                            <a href='/undergraduate/degreeName=wmc'>Web & Mobile Computing, B.S.</a>
-                        </li>
-                        <li>
-                            <a href='/undergraduate/degreeName=hcc'>Human Centered Computing, B.S.</a>
-                        </li>
-                        <li>
-                            <a href='/undergraduate/degreeName=cit'>Computing & Information Technologies, B.S.</a>
-                        </li>
-                    </ul>
-                <h2>Graduate</h2>
-                    <ul>
-                        <li>
-                            <a href='/graduate/degreeName=ist'>Information Sciences & Technologies, M.S.</a>
-                        </li>
-                        <li>
-                            <a href='/graduate/degreeName=hci'>Human Computer Interaction, M.S.</a>
-                        </li>
-                        <li>
-                            <a href='/graduate/degreeName=nsa'>Networking & Systems Administration, M.S.</a>
-                        </li>
-                        <li>
-                            <a href='/graduate/degreeName=gac'>Graduate Advanced Certificates</a>
-                        </li>
-                    </ul>
-            </div>
+            <body>
+                <div id='degreesContainer'>
+                    <h2>Undergraduate</h2>
+                        <ul>
+                            <li>
+                                <a href='/undergraduate/degreeName=wmc'>Web & Mobile Computing, B.S.</a>
+                            </li>
+                            <li>
+                                <a href='/undergraduate/degreeName=hcc'>Human Centered Computing, B.S.</a>
+                            </li>
+                            <li>
+                                <a href='/undergraduate/degreeName=cit'>Computing & Information Technologies, B.S.</a>
+                            </li>
+                        </ul>
+                    <h2>Graduate</h2>
+                        <ul>
+                            <li>
+                                <a href='/graduate/degreeName=ist'>Information Sciences & Technologies, M.S.</a>
+                            </li>
+                            <li>
+                                <a href='/graduate/degreeName=hci'>Human Computer Interaction, M.S.</a>
+                            </li>
+                            <li>
+                                <a href='/graduate/degreeName=nsa'>Networking & Systems Administration, M.S.</a>
+                            </li>
+                            <li>
+                                <a href='/graduate/degreeName=gac'>Graduate Advanced Certificates</a>
+                            </li>
+                        </ul>
+                </div>
+            </body>
         </>
     )
 }
