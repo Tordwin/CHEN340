@@ -30,18 +30,17 @@ const Minors = () => {
 
     return (
         <>
-            <body>
-                <div id='Minors'>
-                    <h2>Minors</h2>
-                    <p>Minor Name: </p>
-                    <p>Minor Title: </p>
-                    <p>Minor Description: </p>
-                    <p>Minor's Courses: </p>
-                    <ul>
-                        <li>Course 1</li>
-                    </ul>
-                </div>
-            </body>
+            <div id='Minors'>
+                <h2>Minors</h2>
+                {minorsObj.UgMinors.map((minor, index) => (
+                    <div key={minor.id || index} id='minorsContainer'>
+                        <p>{minor.name}</p>
+                        <p>{minor.title}</p>
+                        <p>{minor.description}</p>
+                        <p>{minor.courses}</p>
+                    </div>
+                ))}
+            </div>
         </>
     )
 }
