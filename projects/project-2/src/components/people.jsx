@@ -40,30 +40,30 @@ const People = () => {
 
     return (
         <>
-            <body>
+            <div>
                 <h2>{peopleObj.title}</h2>
                 <h3>{peopleObj.subTitle}</h3>
                 
                 <h3>Faculty</h3>
                 <div className='peopleList'>
-                    {peopleObj.faculty.map((p) => 
-                    <div className='peopleListItem'>
-                        <h3>{p.name}</h3>
-                        <img src={p.imagePath} alt="thisPerson"/>
-                    </div>
-                    )}
+                    {peopleObj.faculty.map((p, index) => (
+                        <div key={p.id || index} className='peopleListItem'>
+                            <h3>{p.name}</h3>
+                            <img src={p.imagePath} alt="thisPerson" />
+                        </div>
+                    ))}
                 </div>
 
                 <h3>Staff</h3>
                 <div className='peopleList'>
-                    {peopleObj.staff.map((p) => 
-                    <div className='peopleListItem'>
-                        <h3>{p.name}</h3>
-                        <img src={p.imagePath} alt="thisPerson"/>
-                    </div>
-                    )}
+                    {peopleObj.staff.map((p, index) => (
+                        <div key={p.id || index} className='peopleListItem'>
+                            <h3>{p.name}</h3>
+                            <img src={p.imagePath} alt="thisPerson" />
+                        </div>
+                    ))}
                 </div>
-            </body>
+            </div>
         </>
     )
 }

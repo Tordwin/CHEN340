@@ -35,27 +35,24 @@ const Degrees = () => {
 
     return (
         <>
-            <body id="degreesBody">
-                <div id='degreesContainer'>
-                    <h2>Undergraduate</h2>
-                    {degreesObj.undergraduate.map((degree) =>
-                        <div id='undergraduateListItem'>
-                            <h3>{degree.title}</h3>
-                            <p>{degree.description}</p>
-                            <p>{degree.concenteration}</p>
-                        </div>
-                    )}
-                    <h2>Graduate</h2>
-                    {degreesObj.graduate.map((degree) =>
-                        <div id='graduateListItem'>
-                            <h3>{degree.title}</h3>
-                            <p>{degree.description}</p>
-                            <p>{degree.concenteration}</p>
-                        </div>
-                    )}
-
-                </div>
-            </body>
+            <div id='degreesContainer'>
+                <h2>Undergraduate</h2>
+                {degreesObj.undergraduate.map((degree) =>
+                    <div key={degree.degreeName || index} id='undergraduateListItem'>
+                        <h3>{degree.title}</h3>
+                        <p>{degree.description}</p>
+                        <p>{degree.concenteration}</p>
+                    </div>
+                )}
+                <h2>Graduate</h2>
+                {degreesObj.graduate.map((degree) =>
+                    <div key={degree.degreeName || index} id='graduateListItem'>
+                        <h3>{degree.title}</h3>
+                        <p>{degree.description}</p>
+                        <p>{degree.concenteration}</p>
+                    </div>
+                )}
+            </div>
         </>
     )
 }
