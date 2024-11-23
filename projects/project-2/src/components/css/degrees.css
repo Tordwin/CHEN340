@@ -1,0 +1,24 @@
+/* Body Settings */
+#degreesBody {
+    background-color: #3c6e71;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0px 500px 0px 500px;
+    text-align: center;
+}
+
+#degreesContainer h2{
+    margin-top: 30px;
+    font-size: 50px;
+    background-color: #284b63;
+}
+
+#degreesContainer h3{
+    font-size: 30px;
+}
+
+#degreesContainer p{
+    font-size: 20px;
+    margin: 0 100px 0 100px;
+}

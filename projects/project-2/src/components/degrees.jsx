@@ -35,35 +35,25 @@ const Degrees = () => {
 
     return (
         <>
-            <body>
+            <body id="degreesBody">
                 <div id='degreesContainer'>
                     <h2>Undergraduate</h2>
-                        <ul>
-                            <li>
-                                <a href='/undergraduate/degreeName=wmc'>Web & Mobile Computing, B.S.</a>
-                            </li>
-                            <li>
-                                <a href='/undergraduate/degreeName=hcc'>Human Centered Computing, B.S.</a>
-                            </li>
-                            <li>
-                                <a href='/undergraduate/degreeName=cit'>Computing & Information Technologies, B.S.</a>
-                            </li>
-                        </ul>
+                    {degreesObj.undergraduate.map((degree) =>
+                        <div id='undergraduateListItem'>
+                            <h3>{degree.title}</h3>
+                            <p>{degree.description}</p>
+                            <p>{degree.concenteration}</p>
+                        </div>
+                    )}
                     <h2>Graduate</h2>
-                        <ul>
-                            <li>
-                                <a href='/graduate/degreeName=ist'>Information Sciences & Technologies, M.S.</a>
-                            </li>
-                            <li>
-                                <a href='/graduate/degreeName=hci'>Human Computer Interaction, M.S.</a>
-                            </li>
-                            <li>
-                                <a href='/graduate/degreeName=nsa'>Networking & Systems Administration, M.S.</a>
-                            </li>
-                            <li>
-                                <a href='/graduate/degreeName=gac'>Graduate Advanced Certificates</a>
-                            </li>
-                        </ul>
+                    {degreesObj.graduate.map((degree) =>
+                        <div id='graduateListItem'>
+                            <h3>{degree.title}</h3>
+                            <p>{degree.description}</p>
+                            <p>{degree.concenteration}</p>
+                        </div>
+                    )}
+
                 </div>
             </body>
         </>

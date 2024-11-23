@@ -3,7 +3,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #353535;
 }
 
 #title {
@@ -20,6 +20,7 @@
 
 /* Nav Settings */
 #navigation {
+  background-color: #353535;
 	width: 100%;
 	height: 80px;
 	display: flex;
