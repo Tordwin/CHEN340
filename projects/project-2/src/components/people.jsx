@@ -8,6 +8,8 @@ const People = () => {
     //Variables
     const [peopleObj, setPeopleObj] = useState();
     const [loaded, setLoaded] = useState(0);
+    const [people, setPeople] = useState();
+    const [peopleDetails, setPeopleDetails] = useState();
     //get some data
     useEffect(() => {
         getData(`people/`)
@@ -23,6 +25,32 @@ const People = () => {
             <h2 id='loading'>People Page is Loading...</h2>
         </>
     )
+
+    const loadPeopleDetails = (peopleName, type) => {
+        setPeople(peopleName);
+        setPeopleDetails(null);
+        getData(`people/${type}/username=${peopleName}`).then((json) => {
+            setPeopleDetails(json);
+        });
+    }
+
+    if (people && peopleDetails) {
+        return (
+            <>
+                <div id='peopleInfo'>
+                    <p>
+                        Interest Areas: {peopleDetails.interestArea}<br/>
+                        Office: {peopleDetails.office}<br/>
+                        Website: {peopleDetails.website}<br/>
+                        hone: {peopleDetails.phone}<br/>
+                        Email: {peopleDetails.email}<br/>
+                        Twitter: {peopleDetails.twitter}<br/>
+                        Facebook: {peopleDetails.facebook}
+                    </p>
+                </div>
+            </>
+        )
+    }
 
     //Fields to return:
     //username
@@ -42,41 +70,32 @@ const People = () => {
         <>
             <div>
                 <p>breadcrunmb here</p>
-                <div class='top'>
+                <div className='top'>
                     <h2>{peopleObj.title}</h2>
                     <h3>Faculty</h3>
                 </div>
                 <div className='peopleList'>
                     {peopleObj.faculty.map((p, index) => (
                         <div key={p.id || index} className='peopleListItem'>
-
                             <div id='people'>
                                 <h3>
-                                    <a href={`people/faculty/username=${p.username}`}>{p.name}</a>
+                                    <a href={`#`}
+                                        onClick={() => 
+                                        loadPeopleDetails(p.username, 'faculty')}>{p.name}
+                                    </a>
                                 </h3>
                                 <img src={p.imagePath} alt="thisPerson" />
-                            </div>
-
-                            <div id='peopleInfo'>
                                 <p>
                                     {p.tagline}<br/>
                                     {p.title}
                                 </p>
-                                <p>
-                                    Interest Areas: {p.interestArea}<br/>
-                                    Office: {p.office}<br/>
-                                    Website: {p.website}<br/>
-                                    hone: {p.phone}<br/>
-                                    Email: {p.email}<br/>
-                                    Twitter: {p.twitter}<br/>
-                                    Facebook: {p.facebook}
-                                </p>
                             </div>
 
+                            
                         </div>
                     ))}
                 </div>
-                <div class='top'>
+                <div className='top'>
                     <h3>Staff</h3>
                 </div>
                 <div className='peopleList'>
@@ -84,23 +103,15 @@ const People = () => {
                         <div key={p.id || index} className='peopleListItem'>
                             <div id='people'>
                                 <h3>
-                                    <a href={`people/staff/username=${p.username}`}>{p.name}</a>
+                                <a href={`#`}
+                                        onClick={() => 
+                                        loadPeopleDetails(p.username, 'staff')}>{p.name}
+                                    </a>
                                 </h3>
                                 <img src={p.imagePath} alt="thisPerson" />
-                            </div>
-                            <div id='peopleInfo'>
                                 <p>
                                     {p.tagline}<br/>
                                     {p.title}
-                                </p>
-                                <p>
-                                    Interest Areas: {p.interestArea}<br/>
-                                    Office: {p.office}<br/>
-                                    Website: {p.website}<br/>
-                                    hone: {p.phone}<br/>
-                                    Email: {p.email}<br/>
-                                    Twitter: {p.twitter}<br/>
-                                    Facebook: {p.facebook}
                                 </p>
                             </div>
                         </div>

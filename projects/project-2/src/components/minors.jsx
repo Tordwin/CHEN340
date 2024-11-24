@@ -8,6 +8,8 @@ const Minors = () => {
     //Variables
     const [minorsObj, setMinorsObj] = useState();
     const [loaded, setLoaded] = useState(0);
+    const [minor, setMinor] = useState();
+    const [minorDetails, setMinorDetails] = useState();
     //Grabbing data
     useEffect(() => {
         getData('minors/').then((json) => {
@@ -23,6 +25,31 @@ const Minors = () => {
         </>
     )
 
+    const loadMinorDetails = (minorName) => {
+        setMinor(minorName);
+        setMinorDetails(null);
+        getData(`minors/UgMinors/name=${minorName}`).then((json) => {
+            setMinorDetails(json);
+        });
+    }
+
+    if (minor && minorDetails) {
+        return (
+            <>
+                <div id='minorDetails'>
+                    <h2>{minorDetails.title}</h2>
+                    <p>{minorDetails.description}</p>
+                    <h3>Courses</h3>
+                    <ul>
+                        {minorDetails.courses.map((c, index) => 
+                            <li key={c || index}>{c}</li>
+                        )}
+                    </ul>
+                </div>
+            </>
+        )
+    }
+
     //Fields to return (Minors):
     //name
     //title
@@ -37,7 +64,10 @@ const Minors = () => {
                 {minorsObj.UgMinors.map((minor, index) => (
                     <div key={minor.id || index} id='minorsContainer'>
                         <h3>
-                            <a href={`minors/UGMinors/name=${minor.name}`}>{minor.title}</a>
+                            <a href={`#`}
+                                onClick={() => 
+                                loadMinorDetails(minor.name)}>{minor.title}
+                            </a>
                         </h3>
                     </div>
                 ))}
