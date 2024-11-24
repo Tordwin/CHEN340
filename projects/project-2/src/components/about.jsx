@@ -32,7 +32,7 @@ const About = () => {
     return (
         <>
             <p>breadcrumb here</p>
-            <h2>{aboutObj.title}</h2>
+            <h2 id='aboutH2'>{aboutObj.title}</h2>
             <div id='aboutContainer'>
                 <p id='description'>{aboutObj.description}</p>
                 <h3 id='quote'>"{aboutObj.quote}"</h3>
