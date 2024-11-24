@@ -6,6 +6,7 @@ import './css/Employment.css'
 //External Components
 import BasicBreadcrumbs from '../utils/breadcrumbs';
 import CircularIndeterminate from '../utils/progressCircle';
+import CustomizedTables from '../utils/tableEmp';
 
 const Employment = () => {
     //Variables
@@ -79,52 +80,7 @@ const Employment = () => {
                         <p>{emp}</p>
                     </div>
                 )}
-
-                <h2>Co-op Table</h2>
-                <table>
-                        <thead>
-                            <tr>
-                                <th>Employer</th>
-                                <th>Degree</th>
-                                <th>City</th>
-                                <th>Term</th>
-                            </tr>
-                        </thead>
-                        {noCoopDuplicates.map((emp, index) => ( 
-                            <tbody key={emp.employer || index}>
-                                <tr>
-                                    <td><a href={`employment/coopTable/coopinformation/employer=${emp.employer}`}>{emp.employer}</a></td>
-                                    <td>{emp.degree}</td>
-                                    <td>{emp.city}</td>
-                                    <td>{emp.term}</td>
-                                </tr>
-                            </tbody>
-                        ))}
-                </table>
-
-                <h2>Employment Table</h2>
-                <table>
-                        <thead>
-                            <tr>
-                                <th>Employer</th>
-                                <th>Degree</th>
-                                <th>City</th>
-                                <th>Title</th>
-                                <th>Start Date</th>
-                            </tr>
-                        </thead>
-                        {noEmploymentDuplicats.map((emp, index) => ( 
-                            <tbody key={emp.employer || index}>
-                                <tr>
-                                    <td><a href={`employment/employmentTable/professionalEmploymentInformation/employer=${emp.employer}`}>{emp.employer}</a></td>
-                                    <td>{emp.degree}</td>
-                                    <td>{emp.city}</td>
-                                    <td>{emp.title}</td>
-                                    <td>{emp.startDate}</td>
-                                </tr>
-                            </tbody>
-                        ))}
-                </table>
+                <CustomizedTables />
             </div>
         </>
     )
