@@ -31,10 +31,13 @@ const About = () => {
 
     return (
         <>
+            <p>breadcrumb here</p>
             <h2>{aboutObj.title}</h2>
-            <p id='description'>{aboutObj.description}</p>
-            <h3>"{aboutObj.quote}"</h3>
-            <p id='author'>-{aboutObj.quoteAuthor}</p>
+            <div id='aboutContainer'>
+                <p id='description'>{aboutObj.description}</p>
+                <h3 id='quote'>"{aboutObj.quote}"</h3>
+                <p id='author'>-{aboutObj.quoteAuthor}</p>
+            </div>
         </>
     )
 }
