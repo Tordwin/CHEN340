@@ -3,6 +3,9 @@ import {useState, useEffect} from 'react';
 import getData from '../utils/getData';
 //Import CSS HERE
 import './css/Degrees.css'
+//External Components
+import BasicBreadcrumbs from '../utils/breadcrumbs';
+import CircularIndeterminate from '../utils/progressCircle';
 
 const Degrees = () => {
     //Variables
@@ -15,13 +18,15 @@ const Degrees = () => {
         getData('degrees/').then((json) => {
             console.log("Degrees page has loaded", json);
             setDegreesObj(json);
-            setLoaded(true);
         })
+        const timer = setTimeout(() => {
+            setLoaded(true);
+        }, 2000);
     }, []); 
 
     if (!loaded) return (
         <>
-            <h2 id='loading'>Degrees Page is Loading...</h2>
+            <h2 id='loading'>Degrees Page is Loading...<CircularIndeterminate /></h2>
         </>
     )
 
@@ -62,7 +67,7 @@ const Degrees = () => {
 
     return (
         <>
-            <p>breadcrumb here</p>
+            <BasicBreadcrumbs />
             <div id='degreesContainer'>
                 <h2>Undergraduate</h2>
                 {degreesObj.undergraduate.map((degree, index) =>

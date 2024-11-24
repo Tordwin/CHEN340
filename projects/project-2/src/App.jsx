@@ -13,9 +13,12 @@ const App = () => {
   let component
   //Switch cases
   switch(window.location.pathname) {
-    case "/home":
+    case "/":
       component = <About />
       break
+      case "/home":
+        component = <About />
+        break
         case "/degrees":
           component = <Degrees />
           break

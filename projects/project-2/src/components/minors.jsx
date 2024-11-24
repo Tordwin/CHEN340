@@ -3,6 +3,9 @@ import {useState, useEffect} from 'react'
 import getData from '../utils/getData';
 //Import CSS HERE
 import './css/Minors.css'
+//External Components
+import BasicBreadcrumbs from '../utils/breadcrumbs';
+import CircularIndeterminate from '../utils/progressCircle';
 
 const Minors = () => {
     //Variables
@@ -15,13 +18,15 @@ const Minors = () => {
         getData('minors/').then((json) => {
             console.log("Minors page has loaded", json);
             setMinorsObj(json);
-            setLoaded(true);
         })
-    }, []);
+        const timer = setTimeout(() => {
+            setLoaded(true);
+        }, 2000);
+    }, []); 
 
     if (!loaded) return (
         <>
-            <h2 id='loading'>Minors Page is Loading...</h2>
+            <h2 id='loading'>Minors Page is Loading...<CircularIndeterminate /></h2>
         </>
     )
 
@@ -58,7 +63,7 @@ const Minors = () => {
 
     return (
         <>
-            <p>breadcrumb here</p>
+            <BasicBreadcrumbs />
             <div id='minorsContainer'>
                 <h2>Minors</h2>
                 {minorsObj.UgMinors.map((minor, index) => (

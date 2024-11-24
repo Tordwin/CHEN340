@@ -3,6 +3,9 @@ import {useState, useEffect} from 'react'
 import getData from '../utils/getData';
 //Import CSS HERE
 import './css/Employment.css'
+//External Components
+import BasicBreadcrumbs from '../utils/breadcrumbs';
+import CircularIndeterminate from '../utils/progressCircle';
 
 const Employment = () => {
     //Variables
@@ -13,13 +16,15 @@ const Employment = () => {
         getData('employment/').then((json) => {
             console.log("Employment page has loaded", json);
             setEmploymentObj(json);
-            setLoaded(true);
         })
-    }, []);
+        const timer = setTimeout(() => {
+            setLoaded(true);
+        }, 2000);
+    }, []); 
 
     if (!loaded) return (
         <>
-            <h2 id='loading'>Employment Page is Loading...</h2>
+            <h2 id='loading'>Employment Page is Loading...<CircularIndeterminate /></h2>
         </>
     )
 
@@ -43,7 +48,7 @@ const Employment = () => {
 
     return (
         <>
-            <p>breadcrumb here</p>
+            <BasicBreadcrumbs />
             <div id='employmentContainer'>
                 <h1>{employmentObj.introduction.title}</h1>
                 {employmentObj.introduction.content.map((emp, index) => 

@@ -3,6 +3,9 @@ import {useState, useEffect} from 'react'
 import getData from '../utils/getData'
 //Import CSS HERE
 import './css/People.css'
+//External Components
+import BasicBreadcrumbs from '../utils/breadcrumbs';
+import CircularIndeterminate from '../utils/progressCircle';
 
 const People = () => {
     //Variables
@@ -16,13 +19,16 @@ const People = () => {
             .then((json)=>{
                 console.log("People page has loaded", json);
                 setPeopleObj(json);
-                setLoaded(true);
             })
-    }, []);
+        const timer = setTimeout(() => {
+            setLoaded(true);
+        }, 2000);
+    }, []); 
+
 
     if (!loaded) return (
         <>
-            <h2 id='loading'>People Page is Loading...</h2>
+            <h2 id='loading'>People Page is Loading...<CircularIndeterminate /></h2>
         </>
     )
 
@@ -69,7 +75,7 @@ const People = () => {
     return (
         <>
             <div>
-                <p>breadcrunmb here</p>
+                <BasicBreadcrumbs />
                 <div className='top'>
                     <h2>{peopleObj.title}</h2>
                     <h3>Faculty</h3>

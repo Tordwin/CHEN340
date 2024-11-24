@@ -3,6 +3,9 @@ import {useState, useEffect} from 'react';
 import getData from '../utils/getData';
 //Import CSS HERE
 import './css/About.css'
+//External Components
+import BasicBreadcrumbs from '../utils/breadcrumbs';
+import CircularIndeterminate from '../utils/progressCircle';
 
 const About = () => {
     //Variables
@@ -13,13 +16,15 @@ const About = () => {
         getData('about/').then((json) => {
             console.log("About page has loaded", json);
             setAboutObj(json);
-            setLoaded(true);
         })
-    }, []);
+        const timer = setTimeout(() => {
+            setLoaded(true);
+        }, 2000);
+    }, []); 
 
     if (!loaded) return (
         <>
-            <h2 id='loading'>Home Page is Loading...</h2>
+            <h2 id='loading'>Home Page is Loading...<CircularIndeterminate /></h2>
         </>
     )
 
@@ -31,7 +36,7 @@ const About = () => {
 
     return (
         <>
-            <p>breadcrumb here</p>
+            <BasicBreadcrumbs />
             <h2 id='aboutH2'>{aboutObj.title}</h2>
             <div id='aboutContainer'>
                 <p id='description'>{aboutObj.description}</p>
