@@ -47,23 +47,45 @@ const People = () => {
                 <div className='peopleList'>
                     {peopleObj.faculty.map((p, index) => (
                         <div key={p.id || index} className='peopleListItem'>
-                            <h3>
-                                <a href={`people/faculty/username=${p.username}`}>{p.name}</a>
-                            </h3>
-                            <p>{p.tagline}</p>
-                            <img src={p.imagePath} alt="thisPerson" />
+                            <div id='people'>
+                                <h3>
+                                    <a href={`people/faculty/username=${p.username}`}>{p.name}</a>
+                                </h3>
+                                <p>{p.tagline}</p>
+                                <p>{p.title}</p>
+                                <img src={p.imagePath} alt="thisPerson" />
+                            </div>
+                            <div id='peopleInfo'>
+                                <p>Interest Areas: {p.interestArea}</p>
+                                <p>Office: {p.office}</p>
+                                <p>Website: {p.website}</p>
+                                <p>Phone: {p.phone}</p>
+                                <p>Email: {p.email}</p>
+                                <p>Twitter: {p.twitter}</p>
+                                <p>Facebook: {p.facebook}</p>
+                            </div>
                         </div>
                     ))}
                 </div>
-
                 <h3>Staff</h3>
                 <div className='peopleList'>
                     {peopleObj.staff.map((p, index) => (
                         <div key={p.id || index} className='peopleListItem'>
-                            <h3>
-                                <a href={`people/staff/username=${p.username}`}>{p.name}</a>
-                            </h3>
-                            <img src={p.imagePath} alt="thisPerson" />
+                            <div id='people'>
+                                <h3>
+                                    <a href={`people/staff/username=${p.username}`}>{p.name}</a>
+                                </h3>
+                                <img src={p.imagePath} alt="thisPerson" />
+                            </div>
+                            <div id='peopleInfo'>
+                                <p>Interest Areas: {p.interestArea}</p>
+                                <p>Office: {p.office}</p>
+                                <p>Website: {p.website}</p>
+                                <p>Phone: {p.phone}</p>
+                                <p>Email: {p.email}</p>
+                                <p>Twitter: {p.twitter}</p>
+                                <p>Facebook: {p.facebook}</p>
+                            </div>
                         </div>
                     ))}
                 </div>
