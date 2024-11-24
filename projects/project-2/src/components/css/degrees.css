@@ -1,24 +1,24 @@
 /* Body Settings */
-#degreesBody {
-    background-color: #3c6e71;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding:0px 500px 0px 500px;
-    text-align: center;
-}
-
 #degreesContainer h2{
     margin-top: 30px;
+    padding-left: 15px;
     font-size: 50px;
     background-color: #284b63;
 }
 
 #degreesContainer h3{
+    margin-left: 20px;
     font-size: 30px;
 }
 
-#degreesContainer p{
-    font-size: 20px;
-    margin: 0 100px 0 100px;
+#degreesContainer a {
+    text-decoration: none;
+}
+
+#degreesContainer a:link {
+    color: #e0e1dd;
+}
+
+#degreesContainer a:visited {
+    color: #e0e1dd;
 }

@@ -33,9 +33,7 @@ const Employment = () => {
 
     return (
         <>
-            <body>
 
-            </body>
         </>
     )
 }
