@@ -42,32 +42,44 @@ const People = () => {
     return (
         <>
             <div>
-                <h2>{peopleObj.title}</h2>
-                <h3>Faculty</h3>
+                <p>breadcrunmb here</p>
+                <div class='top'>
+                    <h2>{peopleObj.title}</h2>
+                    <h3>Faculty</h3>
+                </div>
                 <div className='peopleList'>
                     {peopleObj.faculty.map((p, index) => (
                         <div key={p.id || index} className='peopleListItem'>
+
                             <div id='people'>
                                 <h3>
                                     <a href={`people/faculty/username=${p.username}`}>{p.name}</a>
                                 </h3>
-                                <p>{p.tagline}</p>
-                                <p>{p.title}</p>
                                 <img src={p.imagePath} alt="thisPerson" />
                             </div>
+
                             <div id='peopleInfo'>
-                                <p>Interest Areas: {p.interestArea}</p>
-                                <p>Office: {p.office}</p>
-                                <p>Website: {p.website}</p>
-                                <p>Phone: {p.phone}</p>
-                                <p>Email: {p.email}</p>
-                                <p>Twitter: {p.twitter}</p>
-                                <p>Facebook: {p.facebook}</p>
+                                <p>
+                                    {p.tagline}<br/>
+                                    {p.title}
+                                </p>
+                                <p>
+                                    Interest Areas: {p.interestArea}<br/>
+                                    Office: {p.office}<br/>
+                                    Website: {p.website}<br/>
+                                    hone: {p.phone}<br/>
+                                    Email: {p.email}<br/>
+                                    Twitter: {p.twitter}<br/>
+                                    Facebook: {p.facebook}
+                                </p>
                             </div>
+
                         </div>
                     ))}
                 </div>
-                <h3>Staff</h3>
+                <div class='top'>
+                    <h3>Staff</h3>
+                </div>
                 <div className='peopleList'>
                     {peopleObj.staff.map((p, index) => (
                         <div key={p.id || index} className='peopleListItem'>
@@ -78,13 +90,19 @@ const People = () => {
                                 <img src={p.imagePath} alt="thisPerson" />
                             </div>
                             <div id='peopleInfo'>
-                                <p>Interest Areas: {p.interestArea}</p>
-                                <p>Office: {p.office}</p>
-                                <p>Website: {p.website}</p>
-                                <p>Phone: {p.phone}</p>
-                                <p>Email: {p.email}</p>
-                                <p>Twitter: {p.twitter}</p>
-                                <p>Facebook: {p.facebook}</p>
+                                <p>
+                                    {p.tagline}<br/>
+                                    {p.title}
+                                </p>
+                                <p>
+                                    Interest Areas: {p.interestArea}<br/>
+                                    Office: {p.office}<br/>
+                                    Website: {p.website}<br/>
+                                    hone: {p.phone}<br/>
+                                    Email: {p.email}<br/>
+                                    Twitter: {p.twitter}<br/>
+                                    Facebook: {p.facebook}
+                                </p>
                             </div>
                         </div>
                     ))}

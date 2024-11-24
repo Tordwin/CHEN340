@@ -1,8 +1,5 @@
 //Import CSS HERE
 import './components/css/App.css'
-//Import HEADER & FOOTER HERE
-import Header from './Header.jsx'
-import Footer from './Footer.jsx'
 //Get Data
 import Degrees from './components/degrees.jsx'
 import Employment from './components/employment.jsx'
@@ -35,9 +32,7 @@ const App = () => {
 
   return (
     <>
-      <Header></Header>
       {component}
-      <Footer></Footer>
     </>
   )
 }
