@@ -1,0 +1,29 @@
+#employmentContainer a {
+    text-decoration: none;
+}
+
+#employmentContainer a:link {
+    color: #e0e1dd;
+}
+
+#employmentContainer a:visited {
+    color: #e0e1dd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    table-layout: fixed;
+  }
+  
+thead th {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+tbody td {
+    padding: 10px;
+    border: 1px solid white;
+}

@@ -27,9 +27,8 @@ const People = () => {
     //Fields to return:
     //username
     //name
-    //imagePath
-
     //tagline
+    //imagePath
     //title
     //interestArea
     //office
