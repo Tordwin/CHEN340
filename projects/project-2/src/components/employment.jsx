@@ -53,6 +53,28 @@ const Employment = () => {
                     </div>
                 )}
 
+                <h2>{employmentObj.degreeStatistics.title}</h2>
+                {employmentObj.degreeStatistics.statistics.map((emp, index) => 
+                    <div key={emp.title || index} id='empDegreeStats'>
+                        <p>{emp.value}</p>
+                        <p>{emp.description}</p>
+                    </div>
+                )}
+
+                <h2>{employmentObj.employers.title}</h2>
+                {employmentObj.employers.employerNames.map((emp, index) => 
+                    <div key={emp || index} id='employerNames'>
+                        <p>{emp}</p>
+                    </div>
+                )}
+
+                <h2>{employmentObj.careers.title}</h2>
+                {employmentObj.careers.careerNames.map((emp, index) => 
+                    <div key={emp || index} id='employerNames'>
+                        <p>{emp}</p>
+                    </div>
+                )}
+
                 <h2>Co-op Table</h2>
                 <table>
                         <thead>
@@ -63,8 +85,8 @@ const Employment = () => {
                                 <th>Term</th>
                             </tr>
                         </thead>
-                        {noCoopDuplicates.map((emp) => ( 
-                            <tbody>
+                        {noCoopDuplicates.map((emp, index) => ( 
+                            <tbody key={emp.employer || index}>
                                 <tr>
                                     <td><a href={`employment/coopTable/coopinformation/employer=${emp.employer}`}>{emp.employer}</a></td>
                                     <td>{emp.degree}</td>
@@ -86,8 +108,8 @@ const Employment = () => {
                                 <th>Start Date</th>
                             </tr>
                         </thead>
-                        {noEmploymentDuplicats.map((emp) => ( 
-                            <tbody>
+                        {noEmploymentDuplicats.map((emp, index) => ( 
+                            <tbody key={emp.employer || index}>
                                 <tr>
                                     <td><a href={`employment/employmentTable/professionalEmploymentInformation/employer=${emp.employer}`}>{emp.employer}</a></td>
                                     <td>{emp.degree}</td>
