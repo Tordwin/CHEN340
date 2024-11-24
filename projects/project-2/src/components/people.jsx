@@ -27,8 +27,9 @@ const People = () => {
     //Fields to return:
     //username
     //name
-    //tagline
     //imagePath
+
+    //tagline
     //title
     //interestArea
     //office
@@ -42,13 +43,14 @@ const People = () => {
         <>
             <div>
                 <h2>{peopleObj.title}</h2>
-                <h3>{peopleObj.subTitle}</h3>
-                
                 <h3>Faculty</h3>
                 <div className='peopleList'>
                     {peopleObj.faculty.map((p, index) => (
                         <div key={p.id || index} className='peopleListItem'>
-                            <h3>{p.name}</h3>
+                            <h3>
+                                <a href={`people/faculty/username=${p.username}`}>{p.name}</a>
+                            </h3>
+                            <p>{p.tagline}</p>
                             <img src={p.imagePath} alt="thisPerson" />
                         </div>
                     ))}
@@ -58,7 +60,9 @@ const People = () => {
                 <div className='peopleList'>
                     {peopleObj.staff.map((p, index) => (
                         <div key={p.id || index} className='peopleListItem'>
-                            <h3>{p.name}</h3>
+                            <h3>
+                                <a href={`people/staff/username=${p.username}`}>{p.name}</a>
+                            </h3>
                             <img src={p.imagePath} alt="thisPerson" />
                         </div>
                     ))}

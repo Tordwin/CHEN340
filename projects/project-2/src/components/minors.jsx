@@ -2,6 +2,7 @@
 import {useState, useEffect} from 'react'
 import getData from '../utils/getData';
 //Import CSS HERE
+import './css/Minors.css'
 
 const Minors = () => {
     //Variables
@@ -30,14 +31,14 @@ const Minors = () => {
 
     return (
         <>
-            <div id='Minors'>
+            <p>breadcrumb here</p>
+            <div id='minorsContainer'>
                 <h2>Minors</h2>
                 {minorsObj.UgMinors.map((minor, index) => (
                     <div key={minor.id || index} id='minorsContainer'>
-                        <p>{minor.name}</p>
-                        <p>{minor.title}</p>
-                        <p>{minor.description}</p>
-                        <p>{minor.courses}</p>
+                        <h3>
+                            <a href={`minors/UGMinors/name=${minor.name}`}>{minor.title}</a>
+                        </h3>
                     </div>
                 ))}
             </div>

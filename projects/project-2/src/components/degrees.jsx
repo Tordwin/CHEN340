@@ -38,7 +38,7 @@ const Degrees = () => {
             <p>breadcrumb here</p>
             <div id='degreesContainer'>
                 <h2>Undergraduate</h2>
-                {degreesObj.undergraduate.map((degree) =>
+                {degreesObj.undergraduate.map((degree, index) =>
                     <div key={degree.degreeName || index} id='undergraduateListItem'>
                         <h3>
                             <a href={`degrees/undergraduate/degreeName=${degree.degreeName}`}>{degree.title}</a>
@@ -46,7 +46,7 @@ const Degrees = () => {
                     </div>
                 )}
                 <h2>Graduate</h2>
-                {degreesObj.graduate.map((degree) =>
+                {degreesObj.graduate.map((degree, index) =>
                     <div key={degree.degreeName || index} id='graduateListItem'>
                         <h3>
                             <a href={`degrees/undergraduate/degreeName=${degree.degreeName}`}>{degree.title}</a>
