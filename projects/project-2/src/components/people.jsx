@@ -8,6 +8,7 @@ import './css/People.css'
 import BasicBreadcrumbs from '../utils/breadcrumbs';
 //Progress Circle
 import CircularIndeterminate from '../utils/progressCircle';
+import { Link } from 'react-router-dom';
 
 const People = () => {
     //Variables
@@ -98,9 +99,9 @@ const People = () => {
                             <div id='people'>
                                 <h3>
                                     {/* Sorry...could not figure out how to change it to a different href */}
-                                    <a href={`#`}
+                                    <Link to={`#`}
                                         onClick={() => loadPeopleDetails(p.username, 'faculty')}>{p.name}
-                                    </a>
+                                    </Link>
                                 </h3>
                                 <img src={p.imagePath} alt="faculty" />
                                 <p>
@@ -122,9 +123,9 @@ const People = () => {
                             <div id='people'>
                                 <h3>
                                     {/* Sorry...could not figure out how to change it to a different href */}
-                                    <a href={`#`}
+                                    <Link to={`#`}
                                         onClick={() => loadPeopleDetails(p.username, 'staff')}>{p.name}
-                                    </a>
+                                    </Link>
                                 </h3>
                                 <img src={p.imagePath} alt="staff" />
                                 <p>

@@ -8,6 +8,7 @@ import './css/Minors.css'
 import BasicBreadcrumbs from '../utils/breadcrumbs';
 //Progress Circle
 import CircularIndeterminate from '../utils/progressCircle';
+import { Link } from 'react-router-dom';
 
 const Minors = () => {
     //Variables
@@ -83,9 +84,9 @@ const Minors = () => {
                     <div key={minor.id || index} id='minorsContainer'>
                         <h3>
                             {/* Sorry...could not figure out how to change it to a different href */}
-                            <a href={`#`}
+                            <Link to={`#`}
                                 onClick={() => loadMinorDetails(minor.name)}>{minor.title}
-                            </a>
+                            </Link>
                         </h3>
                     </div>
                 ))}

@@ -8,6 +8,7 @@ import './css/Degrees.css'
 import BasicBreadcrumbs from '../utils/breadcrumbs';
 //Progress Circle
 import CircularIndeterminate from '../utils/progressCircle';
+import { Link } from 'react-router-dom';
 
 const Degrees = () => {
     //Variables
@@ -88,9 +89,9 @@ const Degrees = () => {
                     <div key={degree.degreeName || index} id='undergraduateListItem'>
                         <h3>
                             {/* Sorry...could not figure out how to change it to a different href */}
-                            <a href={`#`} 
+                            <Link to={`#`} 
                                 onClick={() => loadDegreeDetails(degree.degreeName, 'undergraduate')}>{degree.title}
-                            </a>
+                            </Link>
                         </h3>
                     </div>
                 )}
@@ -100,9 +101,10 @@ const Degrees = () => {
                     <div key={degree.degreeName || index} id='graduateListItem'>
                         <h3>
                             {/* Sorry...could not figure out how to change it to a different href */}
-                            <a href={`#`} 
-                            onClick={() => 
-                                loadDegreeDetails(degree.degreeName, 'graduate')}>{degree.title}</a>
+                            <Link to={`#`} 
+                                onClick={() => 
+                                loadDegreeDetails(degree.degreeName, 'graduate')}>{degree.title}
+                            </Link>
                         </h3>
                     </div>
                 )}
