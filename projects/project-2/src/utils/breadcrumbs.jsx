@@ -21,19 +21,19 @@ export default function IconBreadcrumbs() {
     <div>
       <Breadcrumbs aria-label="breadcrumb" sx={{ color: '#e0e1dd', margin: 3 }}>
         <Link
-          href="/"
+          to="/"
           sx={{ display: 'flex', alignItems: 'center', color: '#e0e1dd' }}
-          onClick={(event) => handleClick(event, "/")}
+          onClick={(event) => handleClick(event, "/ec7233/340/dist/#/")}
         >
           <HomeIcon sx={{ mr: 0.5 }} fontSize="inherit" />
           Home
         </Link>
         {pathnames.map((value, index) => {
-          const href = '/' + pathnames.slice(0, index + 1).join('/');
+          const href = '/ec7233/340/dist/#/' + pathnames.slice(0, index + 1).join('/');
           return (
             <Link
               key={href}
-              href={href}
+              to={href}
               sx={{ color: '#e0e1dd' }}
               onClick={(event) => handleClick(event, href)}
             >

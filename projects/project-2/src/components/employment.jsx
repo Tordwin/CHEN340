@@ -10,6 +10,9 @@ import BasicBreadcrumbs from '../utils/breadcrumbs';
 import CircularIndeterminate from '../utils/progressCircle';
 //Tables
 import CustomizedTables from '../utils/tableEmp';
+//Import Images
+import careerfair from '../assets/images/careerfair.jpg'
+import professional from '../assets/images/professional.jpg'
 
 const Employment = () => {
     //Variables
@@ -72,7 +75,7 @@ const Employment = () => {
                 )}
                 
                 <div id='empCarContainer'>
-                    <img src="/careerfair.jpg" alt="Career Fair Picture" style={{ minWidth: '500px', minHeight: '290px', paddingRight: '100px'}}/>
+                    <img src={careerfair} alt="Career Fair Picture" style={{ minWidth: '500px', minHeight: '290px', paddingRight: '100px'}}/>
                     <div id='employersContainer'>
                         <h2>{employmentObj.employers.title}</h2>
                         {employmentObj.employers.employerNames.map((emp, index) => 
@@ -90,7 +93,7 @@ const Employment = () => {
                         </div>
                     )}
                     </div>
-                    <img src="/professional.jpg" alt="Professional Picture" style={{ minWidth: '500px', minHeight: '290px', paddingLeft: '100px' }} />
+                    <img src={professional} alt="Professional Picture" style={{ minWidth: '500px', minHeight: '290px', paddingLeft: '100px' }} />
                 </div>
 
                 <h2 id='centerStats'>{employmentObj.degreeStatistics.title}</h2>
