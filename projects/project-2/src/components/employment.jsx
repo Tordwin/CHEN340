@@ -72,7 +72,7 @@ const Employment = () => {
                 )}
                 
                 <div id='empCarContainer'>
-                    <img src="img/careerfair.jpg" alt="Career Fair Picture" style={{ minWidth: '500px', minHeight: '290px', paddingRight: '100px'}}/>
+                    <img src="/careerfair.jpg" alt="Career Fair Picture" style={{ minWidth: '500px', minHeight: '290px', paddingRight: '100px'}}/>
                     <div id='employersContainer'>
                         <h2>{employmentObj.employers.title}</h2>
                         {employmentObj.employers.employerNames.map((emp, index) => 
@@ -90,7 +90,7 @@ const Employment = () => {
                         </div>
                     )}
                     </div>
-                    <img src="img/professional.jpg" alt="Professional Picture" style={{ minWidth: '500px', minHeight: '290px', paddingLeft: '100px' }} />
+                    <img src="/professional.jpg" alt="Professional Picture" style={{ minWidth: '500px', minHeight: '290px', paddingLeft: '100px' }} />
                 </div>
 
                 <h2 id='centerStats'>{employmentObj.degreeStatistics.title}</h2>
