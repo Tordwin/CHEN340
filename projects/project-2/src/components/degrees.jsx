@@ -4,7 +4,9 @@ import getData from '../utils/getData';
 //Import CSS HERE
 import './css/Degrees.css'
 //External Components
+//Breadcrumbs
 import BasicBreadcrumbs from '../utils/breadcrumbs';
+//Progress Circle
 import CircularIndeterminate from '../utils/progressCircle';
 
 const Degrees = () => {
@@ -13,23 +15,30 @@ const Degrees = () => {
     const [loaded, setLoaded] = useState(0);
     const [degree, setDegree] = useState();
     const [degreeDetails, setDegreeDetails] = useState();
+
     //Grabbing data
     useEffect(() => {
         getData('degrees/').then((json) => {
             console.log("Degrees page has loaded", json);
             setDegreesObj(json);
         })
+
+        //Timer so progress circle is shown
         const timer = setTimeout(() => {
             setLoaded(true);
         }, 1000);
     }, []); 
 
+    //If it hasn't loaded yet it display loading and progress circle
     if (!loaded) return (
         <>
             <h2 id='loading'>Degrees Page is Loading...<CircularIndeterminate /></h2>
         </>
     )
 
+    //URL should follow "degree/undergraduate or graduate/degreeName=degreeName"
+    //Grabs data and sets it to degreeDetails
+    //Returns data
     const loadDegreeDetails = (degreeName, type) => {
         setDegree(degreeName);
         setDegreeDetails(null);
@@ -38,6 +47,7 @@ const Degrees = () => {
         });
     }
 
+    //Checks for values and returns data
     if (degree && degreeDetails) {
         return (
             <>
@@ -67,32 +77,38 @@ const Degrees = () => {
 
     return (
         <>
+            {/* Breadcrumb */}
             <BasicBreadcrumbs />
+
+            {/* Returning Data */}
             <div id='degreesContainer'>
+
                 <h2>Undergraduate</h2>
                 {degreesObj.undergraduate.map((degree, index) =>
                     <div key={degree.degreeName || index} id='undergraduateListItem'>
                         <h3>
+                            {/* Sorry...could not figure out how to change it to a different href */}
                             <a href={`#`} 
-                            onClick={() => 
-                                loadDegreeDetails(degree.degreeName, 'undergraduate')}>{degree.title}</a>
+                                onClick={() => loadDegreeDetails(degree.degreeName, 'undergraduate')}>{degree.title}
+                            </a>
                         </h3>
                     </div>
                 )}
+
                 <h2>Graduate</h2>
                 {degreesObj.graduate.map((degree, index) =>
                     <div key={degree.degreeName || index} id='graduateListItem'>
                         <h3>
+                            {/* Sorry...could not figure out how to change it to a different href */}
                             <a href={`#`} 
                             onClick={() => 
                                 loadDegreeDetails(degree.degreeName, 'graduate')}>{degree.title}</a>
                         </h3>
                     </div>
                 )}
+                
             </div>
         </>
     )
 }
-
-
 export default Degrees;

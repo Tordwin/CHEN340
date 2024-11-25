@@ -4,7 +4,9 @@ import getData from '../utils/getData'
 //Import CSS HERE
 import './css/People.css'
 //External Components
+//Breadcrumbs
 import BasicBreadcrumbs from '../utils/breadcrumbs';
+//Progress Circle
 import CircularIndeterminate from '../utils/progressCircle';
 
 const People = () => {
@@ -13,25 +15,31 @@ const People = () => {
     const [loaded, setLoaded] = useState(0);
     const [people, setPeople] = useState();
     const [peopleDetails, setPeopleDetails] = useState();
-    //get some data
+
+    //Grabbing data
     useEffect(() => {
         getData(`people/`)
             .then((json)=>{
                 console.log("People page has loaded", json);
                 setPeopleObj(json);
-            })
+        })
+
+        //Timer so progress circle is shown
         const timer = setTimeout(() => {
             setLoaded(true);
         }, 1000);
     }, []); 
 
-
+    //If it hasn't loaded yet it display loading and progress circle
     if (!loaded) return (
         <>
             <h2 id='loading'>People Page is Loading...<CircularIndeterminate /></h2>
         </>
     )
 
+    //URL should follow "people/faculty or staff/username=peopleName"
+    //Grabs data and sets it to peopleDetails
+    //Returns data
     const loadPeopleDetails = (peopleName, type) => {
         setPeople(peopleName);
         setPeopleDetails(null);
@@ -40,6 +48,7 @@ const People = () => {
         });
     }
 
+    //Checks for values and returns data
     if (people && peopleDetails) {
         return (
             <>
@@ -48,7 +57,7 @@ const People = () => {
                         Interest Areas: {peopleDetails.interestArea}<br/>
                         Office: {peopleDetails.office}<br/>
                         Website: {peopleDetails.website}<br/>
-                        hone: {peopleDetails.phone}<br/>
+                        Phone: {peopleDetails.phone}<br/>
                         Email: {peopleDetails.email}<br/>
                         Twitter: {peopleDetails.twitter}<br/>
                         Facebook: {peopleDetails.facebook}
@@ -75,7 +84,10 @@ const People = () => {
     return (
         <>
             <div>
+                {/* Breadcrumb */}
                 <BasicBreadcrumbs />
+
+                {/* Returning Data */}
                 <div className='top'>
                     <h2>{peopleObj.title}</h2>
                     <h3>Faculty</h3>
@@ -85,12 +97,12 @@ const People = () => {
                         <div key={p.id || index} className='peopleListItem'>
                             <div id='people'>
                                 <h3>
+                                    {/* Sorry...could not figure out how to change it to a different href */}
                                     <a href={`#`}
-                                        onClick={() => 
-                                        loadPeopleDetails(p.username, 'faculty')}>{p.name}
+                                        onClick={() => loadPeopleDetails(p.username, 'faculty')}>{p.name}
                                     </a>
                                 </h3>
-                                <img src={p.imagePath} alt="thisPerson" />
+                                <img src={p.imagePath} alt="faculty" />
                                 <p>
                                     {p.tagline}<br/>
                                     {p.title}
@@ -109,12 +121,12 @@ const People = () => {
                         <div key={p.id || index} className='peopleListItem'>
                             <div id='people'>
                                 <h3>
-                                <a href={`#`}
-                                        onClick={() => 
-                                        loadPeopleDetails(p.username, 'staff')}>{p.name}
+                                    {/* Sorry...could not figure out how to change it to a different href */}
+                                    <a href={`#`}
+                                        onClick={() => loadPeopleDetails(p.username, 'staff')}>{p.name}
                                     </a>
                                 </h3>
-                                <img src={p.imagePath} alt="thisPerson" />
+                                <img src={p.imagePath} alt="staff" />
                                 <p>
                                     {p.tagline}<br/>
                                     {p.title}
@@ -127,5 +139,4 @@ const People = () => {
         </>
     )
 }
-
 export default People;

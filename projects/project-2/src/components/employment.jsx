@@ -4,36 +4,45 @@ import getData from '../utils/getData';
 //Import CSS HERE
 import './css/Employment.css'
 //External Components
+//Breadcrumbs
 import BasicBreadcrumbs from '../utils/breadcrumbs';
+//Progress Circle
 import CircularIndeterminate from '../utils/progressCircle';
+//Tables
 import CustomizedTables from '../utils/tableEmp';
 
 const Employment = () => {
     //Variables
     const [employmentObj, setEmploymentObj] = useState();
     const [loaded, setLoaded] = useState(0);
+
     //Grabbing data
     useEffect(() => {
         getData('employment/').then((json) => {
             console.log("Employment page has loaded", json);
             setEmploymentObj(json);
         })
+
+        //Timer so progress circle is shown
         const timer = setTimeout(() => {
             setLoaded(true);
         }, 1000);
     }, []); 
 
+    //If it hasn't loaded yet it display loading and progress circle
     if (!loaded) return (
         <>
             <h2 id='loading'>Employment Page is Loading...<CircularIndeterminate /></h2>
         </>
     )
 
+    //Checks for no duplicates in coopTable and filters them out
     const noCoopDuplicates = employmentObj.coopTable.coopInformation.filter(
         (emp, index, self) =>
           index === self.findIndex((i) => i.employer === emp.employer)
     );
 
+    //Checks for no duplicates in employmentTable and filters them out
     const noEmploymentDuplicats = employmentObj.employmentTable.professionalEmploymentInformation.filter(
         (emp, index, self) =>
           index === self.findIndex((i) => i.employer === emp.employer)
@@ -49,7 +58,10 @@ const Employment = () => {
 
     return (
         <>
+            {/* Breadcrumb */}
             <BasicBreadcrumbs />
+
+            {/* Returning Data */}
             <div id='employmentContainer'>
                 <h1>{employmentObj.introduction.title}</h1>
                 {employmentObj.introduction.content.map((emp, index) => 
@@ -81,21 +93,21 @@ const Employment = () => {
                     <img src="img/professional.jpg" alt="Professional Picture" style={{ minWidth: '500px', minHeight: '290px', paddingLeft: '100px' }} />
                 </div>
 
-
                 <h2 id='centerStats'>{employmentObj.degreeStatistics.title}</h2>
                 <div id='degreeStatsContainer'>
                     {employmentObj.degreeStatistics.statistics.map((emp, index) => 
                         <div key={emp.title || index} id='empDegreeStats'>
                             <p id='degreeDesc'>{emp.description} </p>
-                            <p>{emp.value}</p>
+                            <p id='empValue'>{emp.value}</p>
                         </div>
                     )}
                 </div>
 
+                {/* Tables Initiated Here */}
                 <CustomizedTables />
+
             </div>
         </>
     )
 }
-
 export default Employment;

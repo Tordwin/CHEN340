@@ -1,3 +1,4 @@
+/* Body Settings */
 #employmentContainer a {
     text-decoration: none;
 }
@@ -8,6 +9,22 @@
 
 #employmentContainer a:visited {
     color: #e0e1dd;
+}
+
+#empCarContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#centerStats {
+    display: flex;
+    justify-content: center;
+}
+
+#degreeStatsContainer {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #empDegreeStats {
@@ -21,21 +38,23 @@
 
 #empDegreeStats #degreeDesc {
     font-size: 20px;
-    font-weight: bold;
 } 
 
-#degreeStatsContainer {
-    display: flex;
-    justify-content: space-evenly;
+#empValue {
+    font-size: 30px;
+    font-weight: bolder;
 }
 
-#empCarContainer {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
+/* Try to follow this color pallete 
+    Navigation & Footer: 
+        background-color: #1b263b;
 
-#centerStats {
-    display: flex;
-    justify-content: center;
-}
+    Body/Text Container:
+        background-color: #0d1b2a;
+    
+    H Elements:
+        background-color: #415a77;
+
+    Text Color:
+        color: #e0e1dd;
+*/
