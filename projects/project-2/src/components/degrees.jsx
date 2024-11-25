@@ -94,4 +94,5 @@ const Degrees = () => {
     )
 }
 
+
 export default Degrees;

@@ -58,28 +58,40 @@ const Employment = () => {
                         <p>{emp.description}</p>
                     </div>
                 )}
-
-                <h2>{employmentObj.degreeStatistics.title}</h2>
-                {employmentObj.degreeStatistics.statistics.map((emp, index) => 
-                    <div key={emp.title || index} id='empDegreeStats'>
-                        <p>{emp.value}</p>
-                        <p>{emp.description}</p>
+                
+                <div id='empCarContainer'>
+                    <img src="../img/careerfair.jpg" alt="Career Fair Picture" />
+                    <div id='employersContainer'>
+                        <h2>{employmentObj.employers.title}</h2>
+                        {employmentObj.employers.employerNames.map((emp, index) => 
+                            <div key={emp || index} id='employerNames'>
+                                <p>{emp}</p>
+                            </div>
+                        )}
                     </div>
-                )}
-
-                <h2>{employmentObj.employers.title}</h2>
-                {employmentObj.employers.employerNames.map((emp, index) => 
-                    <div key={emp || index} id='employerNames'>
-                        <p>{emp}</p>
+                    
+                    <div id='careersContainer'>
+                    <h2>{employmentObj.careers.title}</h2>
+                    {employmentObj.careers.careerNames.map((emp, index) => 
+                        <div key={emp || index} id='employerCareers'>
+                            <p>{emp}</p>
+                        </div>
+                    )}
                     </div>
-                )}
+                    <img src="../img/professional.jpg" alt="Professional Picture" />
+                </div>
 
-                <h2>{employmentObj.careers.title}</h2>
-                {employmentObj.careers.careerNames.map((emp, index) => 
-                    <div key={emp || index} id='employerNames'>
-                        <p>{emp}</p>
-                    </div>
-                )}
+
+                <h2 id='centerStats'>{employmentObj.degreeStatistics.title}</h2>
+                <div id='degreeStatsContainer'>
+                    {employmentObj.degreeStatistics.statistics.map((emp, index) => 
+                        <div key={emp.title || index} id='empDegreeStats'>
+                            <p id='degreeDesc'>{emp.description} </p>
+                            <p>{emp.value}</p>
+                        </div>
+                    )}
+                </div>
+
                 <CustomizedTables />
             </div>
         </>

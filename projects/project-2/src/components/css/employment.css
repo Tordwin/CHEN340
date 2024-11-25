@@ -10,20 +10,32 @@
     color: #e0e1dd;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    table-layout: fixed;
-  }
-  
-thead th {
-    text-align: left;
-    padding: 10px;
-    border: 1px solid white;
+#empDegreeStats {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px black solid;
+    background-color: #e0e1dd;
+    color: black;
 }
 
-tbody td {
-    padding: 10px;
-    border: 1px solid white;
+#empDegreeStats #degreeDesc {
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+#degreeStatsContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#empCarContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#centerStats {
+    display: flex;
+    justify-content: center;
 }
