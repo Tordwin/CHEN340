@@ -20,7 +20,7 @@ const Employment = () => {
         })
         const timer = setTimeout(() => {
             setLoaded(true);
-        }, 2000);
+        }, 1000);
     }, []); 
 
     if (!loaded) return (
@@ -60,7 +60,7 @@ const Employment = () => {
                 )}
                 
                 <div id='empCarContainer'>
-                    <img src="../img/careerfair.jpg" alt="Career Fair Picture" />
+                    <img src="img/careerfair.jpg" alt="Career Fair Picture" style={{ minWidth: '500px', minHeight: '290px', paddingRight: '100px'}}/>
                     <div id='employersContainer'>
                         <h2>{employmentObj.employers.title}</h2>
                         {employmentObj.employers.employerNames.map((emp, index) => 
@@ -78,7 +78,7 @@ const Employment = () => {
                         </div>
                     )}
                     </div>
-                    <img src="../img/professional.jpg" alt="Professional Picture" />
+                    <img src="img/professional.jpg" alt="Professional Picture" style={{ minWidth: '500px', minHeight: '290px', paddingLeft: '100px' }} />
                 </div>
 
 

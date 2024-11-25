@@ -28,7 +28,6 @@ export default function IconBreadcrumbs() {
           <HomeIcon sx={{ mr: 0.5 }} fontSize="inherit" />
           Home
         </Link>
-        
         {pathnames.map((value, index) => {
           const href = '/' + pathnames.slice(0, index + 1).join('/');
           return (
