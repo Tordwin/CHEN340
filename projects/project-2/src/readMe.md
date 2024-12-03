@@ -1,6 +1,7 @@
 Edwin Chen
 ISTE.340.01-02
 Project 2 (Vite React)
+Webiste: https://people.rit.edu/ec7233/340/dist/
 
 Components Used:
     useState, useEffect - React
