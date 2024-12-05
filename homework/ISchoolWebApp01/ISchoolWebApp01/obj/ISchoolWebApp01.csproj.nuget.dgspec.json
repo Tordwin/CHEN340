@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chene\\Documents\\School\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\ISchoolWebApp01.csproj": {}
+    "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\ISchoolWebApp01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chene\\Documents\\School\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\ISchoolWebApp01.csproj": {
+    "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\ISchoolWebApp01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chene\\Documents\\School\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\ISchoolWebApp01.csproj",
+        "projectUniqueName": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\ISchoolWebApp01.csproj",
         "projectName": "ISchoolWebApp01",
-        "projectPath": "C:\\Users\\chene\\Documents\\School\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\ISchoolWebApp01.csproj",
+        "projectPath": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\ISchoolWebApp01.csproj",
         "packagesPath": "C:\\Users\\chene\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chene\\Documents\\School\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\obj\\",
+        "outputPath": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
