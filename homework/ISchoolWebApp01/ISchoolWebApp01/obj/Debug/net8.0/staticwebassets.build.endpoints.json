@@ -4021,6 +4021,1564 @@
       ]
     },
     {
+      "Route": "lib/jQuery-ui/AUTHORS.72bi5bmqwh.txt",
+      "AssetFile": "lib/jQuery-ui/AUTHORS.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"geZ7JfVsTJq8Wgjrcm1p56Zqjxx7PL9FkxhKiN8dQg8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "72bi5bmqwh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-geZ7JfVsTJq8Wgjrcm1p56Zqjxx7PL9FkxhKiN8dQg8="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jQuery-ui/AUTHORS.txt"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/AUTHORS.txt",
+      "AssetFile": "lib/jQuery-ui/AUTHORS.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"geZ7JfVsTJq8Wgjrcm1p56Zqjxx7PL9FkxhKiN8dQg8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-geZ7JfVsTJq8Wgjrcm1p56Zqjxx7PL9FkxhKiN8dQg8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/LICENSE.mtq9ih5pls.txt",
+      "AssetFile": "lib/jQuery-ui/LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9kkCXPZcjc2FiLCTeIO6elK9ttNRKUZKNqFgLrACUPE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mtq9ih5pls"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9kkCXPZcjc2FiLCTeIO6elK9ttNRKUZKNqFgLrACUPE="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jQuery-ui/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/LICENSE.txt",
+      "AssetFile": "lib/jQuery-ui/LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9kkCXPZcjc2FiLCTeIO6elK9ttNRKUZKNqFgLrACUPE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9kkCXPZcjc2FiLCTeIO6elK9ttNRKUZKNqFgLrACUPE="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/external/jquery/jquery.0i3buxo5is.js",
+      "AssetFile": "lib/jQuery-ui/external/jquery/jquery.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "285314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0i3buxo5is"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jQuery-ui/external/jquery/jquery.js"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/external/jquery/jquery.js",
+      "AssetFile": "lib/jQuery-ui/external/jquery/jquery.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "285314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/images/ui-icons_444444_256x240.gfmyy4g3bb.png",
+      "AssetFile": "lib/jQuery-ui/images/ui-icons_444444_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DFgN9Vm2lLNxBicG+vZWD59W8W7C8YoBrEHCucA6CiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gfmyy4g3bb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DFgN9Vm2lLNxBicG+vZWD59W8W7C8YoBrEHCucA6CiE="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jQuery-ui/images/ui-icons_444444_256x240.png"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/images/ui-icons_444444_256x240.png",
+      "AssetFile": "lib/jQuery-ui/images/ui-icons_444444_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DFgN9Vm2lLNxBicG+vZWD59W8W7C8YoBrEHCucA6CiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DFgN9Vm2lLNxBicG+vZWD59W8W7C8YoBrEHCucA6CiE="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/images/ui-icons_555555_256x240.8p260elj4u.png",
+      "AssetFile": "lib/jQuery-ui/images/ui-icons_555555_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1KRvMjvQTInIOQEptRgV4LwCK/ro1LcqmAlN71EPtSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8p260elj4u"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1KRvMjvQTInIOQEptRgV4LwCK/ro1LcqmAlN71EPtSg="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jQuery-ui/images/ui-icons_555555_256x240.png"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/images/ui-icons_555555_256x240.png",
+      "AssetFile": "lib/jQuery-ui/images/ui-icons_555555_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1KRvMjvQTInIOQEptRgV4LwCK/ro1LcqmAlN71EPtSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1KRvMjvQTInIOQEptRgV4LwCK/ro1LcqmAlN71EPtSg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/images/ui-icons_777620_256x240.261bzgrj9p.png",
+      "AssetFile": "lib/jQuery-ui/images/ui-icons_777620_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4654"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qo2Vi7p0xWE9v112/5zU6P0sIIXXu0lsCJP08I+YJEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "261bzgrj9p"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qo2Vi7p0xWE9v112/5zU6P0sIIXXu0lsCJP08I+YJEw="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jQuery-ui/images/ui-icons_777620_256x240.png"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/images/ui-icons_777620_256x240.png",
+      "AssetFile": "lib/jQuery-ui/images/ui-icons_777620_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4654"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qo2Vi7p0xWE9v112/5zU6P0sIIXXu0lsCJP08I+YJEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qo2Vi7p0xWE9v112/5zU6P0sIIXXu0lsCJP08I+YJEw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/images/ui-icons_777777_256x240.oe09esrxro.png",
+      "AssetFile": "lib/jQuery-ui/images/ui-icons_777777_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UBh//MrZEqRx8jDpMKSaGh5e7A4LGViHa6KyevH44zo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oe09esrxro"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UBh//MrZEqRx8jDpMKSaGh5e7A4LGViHa6KyevH44zo="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jQuery-ui/images/ui-icons_777777_256x240.png"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/images/ui-icons_777777_256x240.png",
+      "AssetFile": "lib/jQuery-ui/images/ui-icons_777777_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UBh//MrZEqRx8jDpMKSaGh5e7A4LGViHa6KyevH44zo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UBh//MrZEqRx8jDpMKSaGh5e7A4LGViHa6KyevH44zo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/images/ui-icons_cc0000_256x240.ih3vz6v2m6.png",
+      "AssetFile": "lib/jQuery-ui/images/ui-icons_cc0000_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4654"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mpF7or7d2eHEHq+AH+d2rvqO/WuUnSpTFrfg8HY7z2E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ih3vz6v2m6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mpF7or7d2eHEHq+AH+d2rvqO/WuUnSpTFrfg8HY7z2E="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jQuery-ui/images/ui-icons_cc0000_256x240.png"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/images/ui-icons_cc0000_256x240.png",
+      "AssetFile": "lib/jQuery-ui/images/ui-icons_cc0000_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4654"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mpF7or7d2eHEHq+AH+d2rvqO/WuUnSpTFrfg8HY7z2E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mpF7or7d2eHEHq+AH+d2rvqO/WuUnSpTFrfg8HY7z2E="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/images/ui-icons_ffffff_256x240.evu7mb195i.png",
+      "AssetFile": "lib/jQuery-ui/images/ui-icons_ffffff_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CsrKjydi8BZgPeMlFNTBeTqNZdyJHnr9OiFRhoCVOvI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "evu7mb195i"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CsrKjydi8BZgPeMlFNTBeTqNZdyJHnr9OiFRhoCVOvI="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jQuery-ui/images/ui-icons_ffffff_256x240.png"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/images/ui-icons_ffffff_256x240.png",
+      "AssetFile": "lib/jQuery-ui/images/ui-icons_ffffff_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CsrKjydi8BZgPeMlFNTBeTqNZdyJHnr9OiFRhoCVOvI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CsrKjydi8BZgPeMlFNTBeTqNZdyJHnr9OiFRhoCVOvI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/index.2jvjnlz339.html",
+      "AssetFile": "lib/jQuery-ui/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ov7jFgQJzsGSk406OqyIQB3KNGoStimEZIdOr31IRGA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2jvjnlz339"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ov7jFgQJzsGSk406OqyIQB3KNGoStimEZIdOr31IRGA="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jQuery-ui/index.html"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/index.html",
+      "AssetFile": "lib/jQuery-ui/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ov7jFgQJzsGSk406OqyIQB3KNGoStimEZIdOr31IRGA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ov7jFgQJzsGSk406OqyIQB3KNGoStimEZIdOr31IRGA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/jquery-ui.8i92ep6hlz.css",
+      "AssetFile": "lib/jQuery-ui/jquery-ui.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YPHfQfr2XXjeotOAo8mDJaWlpCBWgKQkEyvywGgCOEg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8i92ep6hlz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YPHfQfr2XXjeotOAo8mDJaWlpCBWgKQkEyvywGgCOEg="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jQuery-ui/jquery-ui.css"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/jquery-ui.css",
+      "AssetFile": "lib/jQuery-ui/jquery-ui.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YPHfQfr2XXjeotOAo8mDJaWlpCBWgKQkEyvywGgCOEg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YPHfQfr2XXjeotOAo8mDJaWlpCBWgKQkEyvywGgCOEg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/jquery-ui.js",
+      "AssetFile": "lib/jQuery-ui/jquery-ui.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "521054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/vZ4/PBO1oYRLVQs9WLj+7fsHf9eXEvsWKiQ9Df8ZYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/vZ4/PBO1oYRLVQs9WLj+7fsHf9eXEvsWKiQ9Df8ZYY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/jquery-ui.min.cihm7elqrj.css",
+      "AssetFile": "lib/jQuery-ui/jquery-ui.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JDEeI84aTfkVuB13Qa7qxKIQt4nvaQkkw3ZOemB8tkI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cihm7elqrj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JDEeI84aTfkVuB13Qa7qxKIQt4nvaQkkw3ZOemB8tkI="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jQuery-ui/jquery-ui.min.css"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/jquery-ui.min.css",
+      "AssetFile": "lib/jQuery-ui/jquery-ui.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JDEeI84aTfkVuB13Qa7qxKIQt4nvaQkkw3ZOemB8tkI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JDEeI84aTfkVuB13Qa7qxKIQt4nvaQkkw3ZOemB8tkI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/jquery-ui.min.js",
+      "AssetFile": "lib/jQuery-ui/jquery-ui.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "252951"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sl0JQ/KgLRr+XEAPlVTXqHFWTZY9WpUpxiIvzy9SJis=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sl0JQ/KgLRr+XEAPlVTXqHFWTZY9WpUpxiIvzy9SJis="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/jquery-ui.min.muo24l42eu.js",
+      "AssetFile": "lib/jQuery-ui/jquery-ui.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "252951"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sl0JQ/KgLRr+XEAPlVTXqHFWTZY9WpUpxiIvzy9SJis=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "muo24l42eu"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sl0JQ/KgLRr+XEAPlVTXqHFWTZY9WpUpxiIvzy9SJis="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jQuery-ui/jquery-ui.min.js"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/jquery-ui.structure.cfjthnsyt5.css",
+      "AssetFile": "lib/jQuery-ui/jquery-ui.structure.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mLTI9sVRDu5yS2ZXl3T7GeHgT/nv3F/TRZleIAZXFvw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cfjthnsyt5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mLTI9sVRDu5yS2ZXl3T7GeHgT/nv3F/TRZleIAZXFvw="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jQuery-ui/jquery-ui.structure.css"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/jquery-ui.structure.css",
+      "AssetFile": "lib/jQuery-ui/jquery-ui.structure.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mLTI9sVRDu5yS2ZXl3T7GeHgT/nv3F/TRZleIAZXFvw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mLTI9sVRDu5yS2ZXl3T7GeHgT/nv3F/TRZleIAZXFvw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/jquery-ui.structure.min.css",
+      "AssetFile": "lib/jQuery-ui/jquery-ui.structure.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15109"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c9BgSaQCy+M/e6AM7nr/JBxUb/4FNoTn9zbIF+ADDaw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c9BgSaQCy+M/e6AM7nr/JBxUb/4FNoTn9zbIF+ADDaw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/jquery-ui.structure.min.zk4tgxivq0.css",
+      "AssetFile": "lib/jQuery-ui/jquery-ui.structure.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15109"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c9BgSaQCy+M/e6AM7nr/JBxUb/4FNoTn9zbIF+ADDaw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zk4tgxivq0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c9BgSaQCy+M/e6AM7nr/JBxUb/4FNoTn9zbIF+ADDaw="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jQuery-ui/jquery-ui.structure.min.css"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/jquery-ui.theme.css",
+      "AssetFile": "lib/jQuery-ui/jquery-ui.theme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17140"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"grsB4hVvwiBxnNsG1c/ocH1YK76CExOav/dn/BsxepU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-grsB4hVvwiBxnNsG1c/ocH1YK76CExOav/dn/BsxepU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/jquery-ui.theme.min.css",
+      "AssetFile": "lib/jQuery-ui/jquery-ui.theme.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vittOmuP41LywY3sRM+Iapw6F6ZbP7/x1UL7WBomI1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vittOmuP41LywY3sRM+Iapw6F6ZbP7/x1UL7WBomI1s="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/jquery-ui.theme.min.icwmvysa2u.css",
+      "AssetFile": "lib/jQuery-ui/jquery-ui.theme.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vittOmuP41LywY3sRM+Iapw6F6ZbP7/x1UL7WBomI1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "icwmvysa2u"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vittOmuP41LywY3sRM+Iapw6F6ZbP7/x1UL7WBomI1s="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jQuery-ui/jquery-ui.theme.min.css"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/jquery-ui.theme.ysjhl6j0do.css",
+      "AssetFile": "lib/jQuery-ui/jquery-ui.theme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17140"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"grsB4hVvwiBxnNsG1c/ocH1YK76CExOav/dn/BsxepU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ysjhl6j0do"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-grsB4hVvwiBxnNsG1c/ocH1YK76CExOav/dn/BsxepU="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jQuery-ui/jquery-ui.theme.css"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/jquery-ui.yrxknix8i2.js",
+      "AssetFile": "lib/jQuery-ui/jquery-ui.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "521054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/vZ4/PBO1oYRLVQs9WLj+7fsHf9eXEvsWKiQ9Df8ZYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yrxknix8i2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/vZ4/PBO1oYRLVQs9WLj+7fsHf9eXEvsWKiQ9Df8ZYY="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jQuery-ui/jquery-ui.js"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/package.json",
+      "AssetFile": "lib/jQuery-ui/package.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AvCATruWzbwY7NsfzcUR2WqPjslGO8M7hHzTj1AYDQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AvCATruWzbwY7NsfzcUR2WqPjslGO8M7hHzTj1AYDQY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jQuery-ui/package.qaocao8vyd.json",
+      "AssetFile": "lib/jQuery-ui/package.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AvCATruWzbwY7NsfzcUR2WqPjslGO8M7hHzTj1AYDQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:06:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qaocao8vyd"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AvCATruWzbwY7NsfzcUR2WqPjslGO8M7hHzTj1AYDQY="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jQuery-ui/package.json"
+        }
+      ]
+    },
+    {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
       "AssetFile": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "Selectors": [],
