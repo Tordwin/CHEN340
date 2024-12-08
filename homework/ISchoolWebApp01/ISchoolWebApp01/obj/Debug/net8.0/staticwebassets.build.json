@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GxFaU95ZCa/IMe4Dw8YNLRG5I5YBi1CF6e9tnleodWQ=",
+  "Hash": "+IyHyKmyoy8vJYuotTQCTenNnRFCOci1eltvRoG4YEo=",
   "Source": "ISchoolWebApp01",
   "BasePath": "_content/ISchoolWebApp01",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "Fingerprint": "3e5fe0yl74",
+      "Integrity": "C/cz8CANcTZ5KIAqW688Cda3gR2OOKIpTOFCYxZFSJE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -2048,6 +2048,51 @@
       ]
     },
     {
+      "Route": "js/site.3e5fe0yl74.js",
+      "AssetFile": "C:\\Users\\chene\\Documents\\School\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C/cz8CANcTZ5KIAqW688Cda3gR2OOKIpTOFCYxZFSJE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 15:36:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3e5fe0yl74"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C/cz8CANcTZ5KIAqW688Cda3gR2OOKIpTOFCYxZFSJE="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "C:\\Users\\chene\\Documents\\School\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\js\\site.js",
       "Selectors": [],
@@ -2058,7 +2103,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "443"
         },
         {
           "Name": "Content-Type",
@@ -2066,11 +2111,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"C/cz8CANcTZ5KIAqW688Cda3gR2OOKIpTOFCYxZFSJE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Dec 2024 14:47:52 GMT"
+          "Value": "Thu, 05 Dec 2024 15:36:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2080,52 +2125,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\chene\\Documents\\School\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "231"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 03 Dec 2024 14:47:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-C/cz8CANcTZ5KIAqW688Cda3gR2OOKIpTOFCYxZFSJE="
         }
       ]
     },
