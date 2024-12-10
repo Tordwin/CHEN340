@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>09es0beww5</Fingerprint>
-      <Integrity>JCN4AbefpbQzj8bA3i6drHq9GCAN3TQNfeYuP8BEnkA=</Integrity>
+      <Fingerprint>bdt01h4l44</Fingerprint>
+      <Integrity>r5lqoDZ7TEoUg11U+Mq9K33dkH09gJcZWgxAtTk9AYo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3e5fe0yl74</Fingerprint>
-      <Integrity>C/cz8CANcTZ5KIAqW688Cda3gR2OOKIpTOFCYxZFSJE=</Integrity>
+      <Fingerprint>i8awmgkikm</Fingerprint>
+      <Integrity>Li7RJ50qTDelRiY3lNmOUbLmXhdW9cAAC4KVdiyaKG4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</OriginalItemSpec>
@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ozu22stjof</Fingerprint>
-      <Integrity>ZMvmWDSU4zY1Z29EQGm5Mubfz/YxF4hiReGqx84o4tA=</Integrity>
+      <Fingerprint>xjimxyyyef</Fingerprint>
+      <Integrity>k8+pikrzF+TI50l93DkQ537HwHbwdo8QYzUK1YAZKWU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css'))</OriginalItemSpec>
@@ -882,6 +882,240 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\LICENSE'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\css\site.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jQuery-bootstrap-master/css/site.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zaasmk9dca</Fingerprint>
+      <Integrity>K5lBzZn+kUwnXc09dnScQuqJcZqgfmncxS94KSjXeFY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\css\site.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\demo.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jQuery-bootstrap-master/demo.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>z0bpldpyfe</Fingerprint>
+      <Integrity>7WIlcklsPM2W1aYgxCY72qS6cBFSgzJtOQcMmpi9gv4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\demo.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\images\1.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jQuery-bootstrap-master/images/1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1sbecqb709</Fingerprint>
+      <Integrity>Idc/M86GaaxvzT1ml2y5fNu8prqqHtukwqMbfl/vwTM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\images\1.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\images\2.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jQuery-bootstrap-master/images/2.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>mo81nuhojh</Fingerprint>
+      <Integrity>yl61S6BRWRyMXA8tkzJ5ng9pdBCB8aVf4wEA9/yjJ0s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\images\2.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\images\3.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jQuery-bootstrap-master/images/3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1r8dro5fqp</Fingerprint>
+      <Integrity>cyd0diVVPdjO06gadLU/2TgoSqF9j8hOCpD4EwtW4ac=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\images\3.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\images\4.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jQuery-bootstrap-master/images/4.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>klb7ctlike</Fingerprint>
+      <Integrity>iNn5/53jD3qmZNSwruP7hDSUs8Xw2piPEPznq0MIjho=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\images\4.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\images\5.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jQuery-bootstrap-master/images/5.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>p17orggi54</Fingerprint>
+      <Integrity>rfTFG6YxqXViCmnAqm75m36gg6BmtRRu0fxhn+7j5kc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\images\5.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\images\6.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jQuery-bootstrap-master/images/6.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>y7h9z866in</Fingerprint>
+      <Integrity>kj3Vt0C5tGDYYQ64ocsbhxP7OLVQGE9CzMVdNI3Fg48=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\images\6.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\images\7.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jQuery-bootstrap-master/images/7.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>i8rmnc3on6</Fingerprint>
+      <Integrity>Yoqf2Jj0rCU1NQNkJoTXyW+1fxMZRSTUHcwxiclmyQY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\images\7.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\LICENSE'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jQuery-bootstrap-master/LICENSE</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6q67wkq4av</Fingerprint>
+      <Integrity>zq3kvW8gDL86QjsH/umMNafebZ6BO85wiaNxo4JnWac=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\LICENSE'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\README.md'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jQuery-bootstrap-master/README.md</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cvhxj17gqk</Fingerprint>
+      <Integrity>uN+wF0dOU4hhUb+gn7C8DBth2o5Q7NBZRINL429Q4Vs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\README.md'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\scripts\jquery.bootstrap.newsbox.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jQuery-bootstrap-master/scripts/jquery.bootstrap.newsbox.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4ymkc8ztyz</Fingerprint>
+      <Integrity>1DK+IjQS4jyXp0jHh9Vh7db7R4D8qmzUP5Y8fJT0qNo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\scripts\jquery.bootstrap.newsbox.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\scripts\jquery.bootstrap.newsbox.min.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jQuery-bootstrap-master/scripts/jquery.bootstrap.newsbox.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>936qvo2s4g</Fingerprint>
+      <Integrity>q19iOa2jxLCoQQkQrDqt7VRC6Zzlv+1sAK6ci8n2Z8I=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-bootstrap-master\scripts\jquery.bootstrap.newsbox.min.js'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-ui\AUTHORS.txt'))">
       <SourceType>Package</SourceType>
       <SourceId>ISchoolWebApp01</SourceId>
@@ -894,8 +1128,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>72bi5bmqwh</Fingerprint>
-      <Integrity>geZ7JfVsTJq8Wgjrcm1p56Zqjxx7PL9FkxhKiN8dQg8=</Integrity>
+      <Fingerprint>jkzot5uwir</Fingerprint>
+      <Integrity>7eSHeezBdJ7Qlq0sbIvY4VRvqpMwLCAsm5ur1GqFBV8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-ui\AUTHORS.txt'))</OriginalItemSpec>
@@ -912,8 +1146,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0i3buxo5is</Fingerprint>
-      <Integrity>eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=</Integrity>
+      <Fingerprint>d6nrnj6jjx</Fingerprint>
+      <Integrity>6440qEDaqjKqrIVfk4x21neDBVsbef6XUR5dUCKBv/E=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-ui\external\jquery\jquery.js'))</OriginalItemSpec>
@@ -1038,8 +1272,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2jvjnlz339</Fingerprint>
-      <Integrity>ov7jFgQJzsGSk406OqyIQB3KNGoStimEZIdOr31IRGA=</Integrity>
+      <Fingerprint>7qr3cjsc0t</Fingerprint>
+      <Integrity>4djKbeAzOauJOT24XKAJSUMrgK7SeZJF4Q1FAR6+20s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-ui\index.html'))</OriginalItemSpec>
@@ -1056,8 +1290,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8i92ep6hlz</Fingerprint>
-      <Integrity>YPHfQfr2XXjeotOAo8mDJaWlpCBWgKQkEyvywGgCOEg=</Integrity>
+      <Fingerprint>5uqwyj3orz</Fingerprint>
+      <Integrity>I/JMi+CpBMuetj60FINp81agHHkkfL0ssVW2Nt6S1XA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-ui\jquery-ui.css'))</OriginalItemSpec>
@@ -1074,8 +1308,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>yrxknix8i2</Fingerprint>
-      <Integrity>/vZ4/PBO1oYRLVQs9WLj+7fsHf9eXEvsWKiQ9Df8ZYY=</Integrity>
+      <Fingerprint>gf2g73z3ji</Fingerprint>
+      <Integrity>tEz8ab3Zjpv6zQ6omoIFS80rt+eGqPlvH4KLA2fWb6c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-ui\jquery-ui.js'))</OriginalItemSpec>
@@ -1092,8 +1326,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cihm7elqrj</Fingerprint>
-      <Integrity>JDEeI84aTfkVuB13Qa7qxKIQt4nvaQkkw3ZOemB8tkI=</Integrity>
+      <Fingerprint>t8dzhumjdq</Fingerprint>
+      <Integrity>M8m0x8pbA/KlsZXMHroMa4ttg0UE1uCadQnkjbtnR74=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-ui\jquery-ui.min.css'))</OriginalItemSpec>
@@ -1110,8 +1344,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>muo24l42eu</Fingerprint>
-      <Integrity>sl0JQ/KgLRr+XEAPlVTXqHFWTZY9WpUpxiIvzy9SJis=</Integrity>
+      <Fingerprint>z8nq5ifnt1</Fingerprint>
+      <Integrity>zarCottmEf+mYtZtK9GverYtHqTASqnB3JAiK5ijCgQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-ui\jquery-ui.min.js'))</OriginalItemSpec>
@@ -1128,8 +1362,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cfjthnsyt5</Fingerprint>
-      <Integrity>mLTI9sVRDu5yS2ZXl3T7GeHgT/nv3F/TRZleIAZXFvw=</Integrity>
+      <Fingerprint>hfyvyfj16a</Fingerprint>
+      <Integrity>DS5ofCGA3U4XBu0eFf9uv4iZVZsSp2CMixeN3xsDhyg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-ui\jquery-ui.structure.css'))</OriginalItemSpec>
@@ -1146,8 +1380,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zk4tgxivq0</Fingerprint>
-      <Integrity>c9BgSaQCy+M/e6AM7nr/JBxUb/4FNoTn9zbIF+ADDaw=</Integrity>
+      <Fingerprint>orne5u4he1</Fingerprint>
+      <Integrity>LLMl0Pf0JQn6tohynUwZvLIRUdjOWHR5ojnxGA7Qx4c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-ui\jquery-ui.structure.min.css'))</OriginalItemSpec>
@@ -1164,8 +1398,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ysjhl6j0do</Fingerprint>
-      <Integrity>grsB4hVvwiBxnNsG1c/ocH1YK76CExOav/dn/BsxepU=</Integrity>
+      <Fingerprint>9u5lebyvho</Fingerprint>
+      <Integrity>0cqVKFAVS9NOQyqhyhpanAO/AQnoPsX715VK0iIMGDE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-ui\jquery-ui.theme.css'))</OriginalItemSpec>
@@ -1182,8 +1416,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>icwmvysa2u</Fingerprint>
-      <Integrity>vittOmuP41LywY3sRM+Iapw6F6ZbP7/x1UL7WBomI1s=</Integrity>
+      <Fingerprint>w7pfj0lqku</Fingerprint>
+      <Integrity>lA/TEhEF8tK6YCnvKim3KrkeSViSlK0csz55urDW8Vs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-ui\jquery-ui.theme.min.css'))</OriginalItemSpec>
@@ -1200,8 +1434,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mtq9ih5pls</Fingerprint>
-      <Integrity>9kkCXPZcjc2FiLCTeIO6elK9ttNRKUZKNqFgLrACUPE=</Integrity>
+      <Fingerprint>2ur2zxf62g</Fingerprint>
+      <Integrity>apBrQ++OzcBj7ylvGUYGVfV3jIaoB2ZPm63a1EU0Hko=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-ui\LICENSE.txt'))</OriginalItemSpec>
@@ -1218,8 +1452,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qaocao8vyd</Fingerprint>
-      <Integrity>AvCATruWzbwY7NsfzcUR2WqPjslGO8M7hHzTj1AYDQY=</Integrity>
+      <Fingerprint>0zsfsilajp</Fingerprint>
+      <Integrity>bDQqA98dfsEi83upFeZ8RipVtAraPRoxZMxcv244oQo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jQuery-ui\package.json'))</OriginalItemSpec>
@@ -1367,6 +1601,1194 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation\LICENSE.md'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\.gitignore'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/.gitignore</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>aff2dknyvv</Fingerprint>
+      <Integrity>lqet9jCYMsAF714O8NnBZK/3OkwMAmy/QxYFMSDoOwc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\.gitignore'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\bower.json'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/bower.json</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>y78r1zug7s</Fingerprint>
+      <Integrity>Xk9QRMLJQec2/Nqhuz2kb8Yx/d2l+0cQ0PKBbqmc+3Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\bower.json'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\cover.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/dist/cover.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>z4ro1fo3q5</Fingerprint>
+      <Integrity>YxwN18q2WrAgWw4UmlBzZ6WnU25cPaX1UqoWbZx4eK4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\cover.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\css\font\ytp-regular.eot'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/dist/css/font/ytp-regular.eot</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wtgeg0qgyj</Fingerprint>
+      <Integrity>tPxtCB44rA9HdbsoiKxAgtFelS/ICdrS/GhAf5vf3G0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\css\font\ytp-regular.eot'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\css\font\ytp-regular.ttf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/dist/css/font/ytp-regular.ttf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0yxx9x9jjp</Fingerprint>
+      <Integrity>GEf76z8Sy45b45TncjbiSIzGOji0m4mBSNeStWuTjxM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\css\font\ytp-regular.ttf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\css\font\ytp-regular.woff'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/dist/css/font/ytp-regular.woff</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tlbpd9v6es</Fingerprint>
+      <Integrity>/5c6uJCGFtuVzrbUomooKQZfZ0xhP27WegyeMcImTSc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\css\font\ytp-regular.woff'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\css\images\raster.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/dist/css/images/raster.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>czrj49n2mr</Fingerprint>
+      <Integrity>aEzdE7I2KS9YGCJ3PAW3HKHSsddXJFbI5ZewoUmVC28=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\css\images\raster.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\css\images\raster@2x.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/dist/css/images/raster@2x.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>czrj49n2mr</Fingerprint>
+      <Integrity>aEzdE7I2KS9YGCJ3PAW3HKHSsddXJFbI5ZewoUmVC28=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\css\images\raster@2x.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\css\images\raster_dot.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/dist/css/images/raster_dot.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ksixtsm9ob</Fingerprint>
+      <Integrity>nFUXQxpNx9mONc1jCKp4yl599xr/MxQ8FG3De1S6z/c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\css\images\raster_dot.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\css\images\raster_dot@2x.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/dist/css/images/raster_dot@2x.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6cc8l7e49e</Fingerprint>
+      <Integrity>in4oveoy9lCPAdEY6GSL5sLNXxuTvuq6Hc9Sh1/sqeM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\css\images\raster_dot@2x.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\css\jquery.mb.YTPlayer.min.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/dist/css/jquery.mb.YTPlayer.min.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hv93jvxc85</Fingerprint>
+      <Integrity>vTPLILxBGhYtqcn4h+XpN1GF7IqbvWpmBOux3qUzEAg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\css\jquery.mb.YTPlayer.min.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\index.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/dist/index.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gnu4bpf0jn</Fingerprint>
+      <Integrity>LFP4gDFQqkpDaMroYvtRSVmMQxqBZXA+Nt8UsYQ9u1A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\index.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\jquery.mb.YTPlayer.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/dist/jquery.mb.YTPlayer.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4p4199v6yn</Fingerprint>
+      <Integrity>CKstczGw1bkaASXU56YMNoHOXyJ7MWcJp5Vn4WNaW6A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\jquery.mb.YTPlayer.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\jquery.mb.YTPlayer.min.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/dist/jquery.mb.YTPlayer.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>knvf80lutr</Fingerprint>
+      <Integrity>ACY5vAjQuZ8mg7yB8Cg5ggmu8Gaqf0Xxuyq7Q9fQdiQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\dist\jquery.mb.YTPlayer.min.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\ajaxLoad\ajaxText.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/ajaxLoad/ajaxText.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wuznmjv61w</Fingerprint>
+      <Integrity>SIf48LpOYVFNXXsKOdQj8uw/Uw4YMuWHZSIqoNosHsE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\ajaxLoad\ajaxText.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\ajaxLoad\ajaxVideo.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/ajaxLoad/ajaxVideo.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6q8ttcfbbl</Fingerprint>
+      <Integrity>kpFmPQ9On1HeC4VodVSfJgl+5iOg0z1nHkKNAZy+UV4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\ajaxLoad\ajaxVideo.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\ajaxLoad\demo.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/ajaxLoad/demo.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>41433mn768</Fingerprint>
+      <Integrity>KGJN+xI6dcNxUkaMdthu2161l1rbpueHRYYc4u3f79w=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\ajaxLoad\demo.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\bg-1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/assets/bg-1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uguk7fe3do</Fingerprint>
+      <Integrity>woUDzjHkbInm5Qb3tqw1m3wTSJN3TqoTrC63VYnFLn0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\bg-1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\cover.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/assets/cover.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zu4w2hifws</Fingerprint>
+      <Integrity>m+Yzv0RNnYhBMlaEqnzKSrK3CdSD8JDTOp/GPxpohRA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\cover.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\mask-1.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/assets/mask-1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>48grhia6oa</Fingerprint>
+      <Integrity>HBytlcsjl8OCSHyhq5l94FTo744sAxQEJSyYLgoFLG8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\mask-1.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\mask-2.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/assets/mask-2.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e9mma2z94t</Fingerprint>
+      <Integrity>MhwdtllXoW5JKbRE15rBXVc+beyteEs+GI0UVFXk2G8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\mask-2.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\mask-3.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/assets/mask-3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>d8c0w1ud16</Fingerprint>
+      <Integrity>E94KPzu8iRupH8vimyNFGlKg5txPHjjeVMDWKXichWA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\mask-3.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\mask-4.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/assets/mask-4.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e75y6qqjzv</Fingerprint>
+      <Integrity>2hyshtTccONl6CktJfFeVTjBdgeuzdE1hdU+E3T4bvc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\mask-4.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\mask-4a.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/assets/mask-4a.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a9264hzwc0</Fingerprint>
+      <Integrity>EhdtG6a20zzI97BSLChQtqGDH+Lh9Cv8hPJimIbN8YE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\mask-4a.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\shadow.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/assets/shadow.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8d8kvjyh7g</Fingerprint>
+      <Integrity>XHKMMXFJhoIABp7YfloZT8hsyBsmP4EKdvQiRHsRZT0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\shadow.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\text-mask.svg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/assets/text-mask.svg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>itt66ql2ra</Fingerprint>
+      <Integrity>dhqPE51/wgw4249eOkuWIQkBgTC2QWMeOUyImOmZjUA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\text-mask.svg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\ytplayer_img.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/assets/ytplayer_img.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>338h0dkpp1</Fingerprint>
+      <Integrity>0eg6SwuiZaCjh1CB+AqHPza3yMR2wdW+cFOzKT8TcYY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\assets\ytplayer_img.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/demo.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>41433mn768</Fingerprint>
+      <Integrity>KGJN+xI6dcNxUkaMdthu2161l1rbpueHRYYc4u3f79w=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo-abundance-anchor.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/demo-abundance-anchor.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>m600cx2apx</Fingerprint>
+      <Integrity>Eq/jUzrcB8GoQTJY+YQ2lnKS7GBYrHNTuCZJW/YgHYM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo-abundance-anchor.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo-masked.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/demo-masked.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>g2dk0r64dv</Fingerprint>
+      <Integrity>2NR1jQE2CUSIj5XPP2dREjhEsSIc78p1BnHTnxq/NO0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo-masked.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo_as_player.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/demo_as_player.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4iw87zfost</Fingerprint>
+      <Integrity>jBkWAkh/QEY0HGQWnS3aJCOg2HKbTugtfc/7F+BJKyc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo_as_player.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo_domElement.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/demo_domElement.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4ri7rmnr95</Fingerprint>
+      <Integrity>UGL0cvPJEX7sDq8QMuVHYXtaVGLT7e84sfqvO0QEsR0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo_domElement.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo_domElement_1.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/demo_domElement_1.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>itk5s34tcd</Fingerprint>
+      <Integrity>Wv+U4+YHcEuZ6eyNXH/HxQHJeia4sjJ9RlTPK+PURKM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo_domElement_1.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo_ext_methods.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/demo_ext_methods.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>she6olx0ec</Fingerprint>
+      <Integrity>INVVePEZQN/18wZi75kaMCCV9Mh0INOu008G6eOge7U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo_ext_methods.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo_multiple_videos.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/demo_multiple_videos.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4mcm0n560w</Fingerprint>
+      <Integrity>XHV16eoNKQ9+sLPTHfEhoh3zWUZF7ArNm9WKVW7+4J4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo_multiple_videos.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo_multi_domElement.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/demo_multi_domElement.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>doofdoac6u</Fingerprint>
+      <Integrity>rVfXyYt62wlRyl88+RBv1xHaVLj68sFIqnUfr0FSET4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo_multi_domElement.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo_play_only_if_on_screen.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/demo_play_only_if_on_screen.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>c4jtkja00e</Fingerprint>
+      <Integrity>DGaOcECy2ohip0u69lZDC4wo7sykICbH2PdSFpIhHic=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo_play_only_if_on_screen.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo_random.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/demo_random.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9f5iz3a1i4</Fingerprint>
+      <Integrity>C0WLpAjXjZ/Qu3aEiUBchywd1h0FO6RI2Ls+2oOTCpk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo_random.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo_videoList_autoChange.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/demo_videoList_autoChange.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wqdqfh0bfc</Fingerprint>
+      <Integrity>GNuTT9/BpyArSfVOyiIw84cy7gp9k5XwqfE/ARMIriw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\demo_videoList_autoChange.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\test-1.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/test-1.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>g1imim5bqp</Fingerprint>
+      <Integrity>1H6Nj6b/ZYURk07scg5d2NJawQ0wIPYay9CGftNoR84=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\test-1.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\test-2.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/test-2.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5wkvxp3et0</Fingerprint>
+      <Integrity>hfDvc0+1ExM2CHew1ouelur5RnIUinCr9g3nFO9Mbac=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\test-2.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\test-3.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/test-3.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xbxrz2fjqp</Fingerprint>
+      <Integrity>gyMXN91t3QCIKlN59DG2ODt8pwyZ0GuScSPZ+52vr4A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\test-3.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\test-4.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/test-4.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4v9l2d8s0r</Fingerprint>
+      <Integrity>0MS/he+Lymnn/X4u0ryjxzkk/JEF8Cw3uuyxNOQxa/A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\test-4.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\test-5.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/test-5.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>58u3r2klbc</Fingerprint>
+      <Integrity>xX7v84swcNpdbec/3HLzWiDMFBttsY3V/Btft2YM15A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\test-5.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\test-loop.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/examples/test-loop.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>sntx2eyh5y</Fingerprint>
+      <Integrity>mFEA/owC13Df3Y/ChMVAYS54mDNQF779rgoPyKnWBWg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\examples\test-loop.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\Gruntfile.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/Gruntfile.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bp6nw206pf</Fingerprint>
+      <Integrity>r2nUahhCbHkqyabrP3wHwLDqxWGKO7QSfBUIgq23Odg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\Gruntfile.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\issue.txt'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/issue.txt</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a8f2068j21</Fingerprint>
+      <Integrity>Zi7B4xFH4MqOL83XOaRarb26XeB/2XCgVrzou4XZuzY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\issue.txt'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\licences\GPL-LICENSE.txt'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/licences/GPL-LICENSE.txt</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>worx1au073</Fingerprint>
+      <Integrity>cPNSzLp8y5kSTQJdIbvX1Z2eI0JHxU67DIIkatSQGGc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\licences\GPL-LICENSE.txt'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\licences\MIT-LICENSE.txt'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/licences/MIT-LICENSE.txt</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ol4zj7bvmb</Fingerprint>
+      <Integrity>9B4E3t5IHFX5vprsc2rrQLTvomIt5NONHVlKTnkc4Ms=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\licences\MIT-LICENSE.txt'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\package.json'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/package.json</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ig0s1wpeyv</Fingerprint>
+      <Integrity>UiJAmDxEyvNn0zt/pqaaz5yw6jQwFcii2G2b8JOb334=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\package.json'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\README.md'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/README.md</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>lqxypu2vxw</Fingerprint>
+      <Integrity>TbAR2mehVE9yqan0SXGb7HiavfQkdNiJntxPGo3Ppi4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\README.md'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\css\font\ytp-regular.eot'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/src/css/font/ytp-regular.eot</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wtgeg0qgyj</Fingerprint>
+      <Integrity>tPxtCB44rA9HdbsoiKxAgtFelS/ICdrS/GhAf5vf3G0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\css\font\ytp-regular.eot'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\css\font\ytp-regular.ttf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/src/css/font/ytp-regular.ttf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0yxx9x9jjp</Fingerprint>
+      <Integrity>GEf76z8Sy45b45TncjbiSIzGOji0m4mBSNeStWuTjxM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\css\font\ytp-regular.ttf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\css\font\ytp-regular.woff'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/src/css/font/ytp-regular.woff</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tlbpd9v6es</Fingerprint>
+      <Integrity>/5c6uJCGFtuVzrbUomooKQZfZ0xhP27WegyeMcImTSc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\css\font\ytp-regular.woff'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\css\images\raster.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/src/css/images/raster.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>czrj49n2mr</Fingerprint>
+      <Integrity>aEzdE7I2KS9YGCJ3PAW3HKHSsddXJFbI5ZewoUmVC28=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\css\images\raster.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\css\images\raster@2x.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/src/css/images/raster@2x.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>czrj49n2mr</Fingerprint>
+      <Integrity>aEzdE7I2KS9YGCJ3PAW3HKHSsddXJFbI5ZewoUmVC28=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\css\images\raster@2x.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\css\images\raster_dot.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/src/css/images/raster_dot.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ksixtsm9ob</Fingerprint>
+      <Integrity>nFUXQxpNx9mONc1jCKp4yl599xr/MxQ8FG3De1S6z/c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\css\images\raster_dot.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\css\images\raster_dot@2x.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/src/css/images/raster_dot@2x.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6cc8l7e49e</Fingerprint>
+      <Integrity>in4oveoy9lCPAdEY6GSL5sLNXxuTvuq6Hc9Sh1/sqeM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\css\images\raster_dot@2x.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\css\jquery.mb.YTPlayer.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/src/css/jquery.mb.YTPlayer.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>i2put0e6vn</Fingerprint>
+      <Integrity>anfAPu/bQy4PQ++uejpeGAi8wJw4a/+oTpbvJVhyL8I=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\css\jquery.mb.YTPlayer.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\dep\jquery.mb.browser.min.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/src/dep/jquery.mb.browser.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qomk1a8220</Fingerprint>
+      <Integrity>2rhJ/6/1S0U0FJ9THc/h1CFf7uXiSrcnIZBKLpGAs1s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\dep\jquery.mb.browser.min.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\dep\jquery.mb.CSSAnimate.min.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/src/dep/jquery.mb.CSSAnimate.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qmi0nipea0</Fingerprint>
+      <Integrity>Um3n8AuvZoVu6SDEXFO3KUCa1YSsgkmfcY/vhwvghQ4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\dep\jquery.mb.CSSAnimate.min.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\dep\jquery.mb.simpleSlider.min.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/src/dep/jquery.mb.simpleSlider.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>evppf0df44</Fingerprint>
+      <Integrity>Ok5QBPecvRox1k7EV63hU+RnMFS725Loar9hgTLprTI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\dep\jquery.mb.simpleSlider.min.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\dep\jquery.mb.storage.min.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/src/dep/jquery.mb.storage.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3v2n3z7eye</Fingerprint>
+      <Integrity>wVKzCZa94Q2zd8xDVZ5XPli4Dc+q615wGJnI/WVh+ZE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\dep\jquery.mb.storage.min.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\dep\jquery.mbBrowser.min.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/src/dep/jquery.mbBrowser.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jfmrwfqbtr</Fingerprint>
+      <Integrity>T8bk8VlkbrwNaPeHpvKqwXrltcqdQmzf9SJ/JJSgNu4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\dep\jquery.mbBrowser.min.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\index.tmpl'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/src/index.tmpl</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vipw3hijvx</Fingerprint>
+      <Integrity>N/CpKe9K9fVbQQhJAaPciowuO2/IJZ6cWn/wnZEHg7k=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\index.tmpl'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\jquery.mb.YTPlayer.src.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ISchoolWebApp01</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ISchoolWebApp01</BasePath>
+      <RelativePath>lib/jquery.mb.YTPlayer-master/src/jquery.mb.YTPlayer.src.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>x4i5acjgio</Fingerprint>
+      <Integrity>7+pHu/kXHIe871IRQe57qO3eoE/wb7EEKNfTSXkDeJE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery.mb.YTPlayer-master\src\jquery.mb.YTPlayer.src.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\dist\jquery.js'))">
       <SourceType>Package</SourceType>

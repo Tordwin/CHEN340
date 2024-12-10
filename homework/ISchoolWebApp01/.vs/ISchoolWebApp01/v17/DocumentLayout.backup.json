@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\chene\\Documents\\School\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\",
+  "WorkspaceRootPath": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|c:\\users\\chene\\documents\\school\\fall2024\\chen340\\homework\\ischoolwebapp01\\ischoolwebapp01\\views\\home\\people.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|solutionrelative:ischoolwebapp01\\views\\home\\people.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|c:\\users\\chene\\documents\\school\\fall2024\\chen340\\homework\\ischoolwebapp01\\ischoolwebapp01\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|solutionrelative:ischoolwebapp01\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|c:\\users\\chene\\documents\\school\\fall2024\\chen340\\homework\\ischoolwebapp01\\ischoolwebapp01\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|solutionrelative:ischoolwebapp01\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|c:\\users\\chene\\documents\\school\\fall2024\\chen340\\homework\\ischoolwebapp01\\ischoolwebapp01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|c:\\users\\chene\\onedrive\\documents\\school\\fall2024\\chen340\\homework\\ischoolwebapp01\\ischoolwebapp01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|solutionrelative:ischoolwebapp01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|c:\\users\\chene\\documents\\school\\fall2024\\chen340\\homework\\ischoolwebapp01\\ischoolwebapp01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|solutionrelative:ischoolwebapp01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|c:\\users\\chene\\onedrive\\documents\\school\\fall2024\\chen340\\homework\\ischoolwebapp01\\ischoolwebapp01\\views\\home\\news.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|solutionrelative:ischoolwebapp01\\views\\home\\news.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|c:\\users\\chene\\onedrive\\documents\\school\\fall2024\\chen340\\homework\\ischoolwebapp01\\ischoolwebapp01\\models\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|solutionrelative:ischoolwebapp01\\models\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|c:\\users\\chene\\onedrive\\documents\\school\\fall2024\\chen340\\homework\\ischoolwebapp01\\ischoolwebapp01\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|solutionrelative:ischoolwebapp01\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|c:\\users\\chene\\onedrive\\documents\\school\\fall2024\\chen340\\homework\\ischoolwebapp01\\ischoolwebapp01\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|solutionrelative:ischoolwebapp01\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,76 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\chene\\Documents\\School\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "ISchoolWebApp01\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\chene\\Documents\\School\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "ISchoolWebApp01\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-05T15:23:06.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "People.cshtml",
-              "DocumentMoniker": "C:\\Users\\chene\\Documents\\School\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\Views\\Home\\People.cshtml",
-              "RelativeDocumentMoniker": "ISchoolWebApp01\\Views\\Home\\People.cshtml",
-              "ToolTip": "C:\\Users\\chene\\Documents\\School\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\Views\\Home\\People.cshtml",
-              "RelativeToolTip": "ISchoolWebApp01\\Views\\Home\\People.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T15:15:42.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\chene\\Documents\\School\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\Models\\Course.cs",
-              "RelativeDocumentMoniker": "ISchoolWebApp01\\Models\\Course.cs",
-              "ToolTip": "C:\\Users\\chene\\Documents\\School\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\Models\\Course.cs",
-              "RelativeToolTip": "ISchoolWebApp01\\Models\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "News.cs",
+              "DocumentMoniker": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\Models\\News.cs",
+              "RelativeDocumentMoniker": "ISchoolWebApp01\\Models\\News.cs",
+              "ToolTip": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\Models\\News.cs",
+              "RelativeToolTip": "ISchoolWebApp01\\Models\\News.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T15:14:53.801Z",
+              "WhenOpened": "2024-12-10T21:58:51.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ISchoolWebApp01\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ISchoolWebApp01\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAAwKoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-10T21:57:42.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\chene\\Documents\\School\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ISchoolWebApp01\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\chene\\Documents\\School\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ISchoolWebApp01\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAwAAAByAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T15:07:56.127Z",
+              "WhenOpened": "2024-12-10T21:56:00.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\chene\\Documents\\School\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ISchoolWebApp01\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\chene\\Documents\\School\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ISchoolWebApp01\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwEUAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T14:55:03.444Z",
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "ISchoolWebApp01\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "ISchoolWebApp01\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-10T21:46:40.313Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "News.cshtml",
+              "DocumentMoniker": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\Views\\Home\\News.cshtml",
+              "RelativeDocumentMoniker": "ISchoolWebApp01\\Views\\Home\\News.cshtml",
+              "ToolTip": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\homework\\ISchoolWebApp01\\ISchoolWebApp01\\Views\\Home\\News.cshtml",
+              "RelativeToolTip": "ISchoolWebApp01\\Views\\Home\\News.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T21:39:22.642Z",
+              "EditorCaption": ""
             }
           ]
         }

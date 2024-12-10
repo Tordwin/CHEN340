@@ -26,8 +26,7 @@ namespace ISchoolWebApp01.Controllers
             }
             catch (Exception ex)
             {
-                // More detailed error logging
-                throw new Exception($"Error retrieving data from {url}: {ex.Message}", ex);
+                throw new Exception("Error retrieving data from url. " + ex);
             }
         }
     }
@@ -41,16 +40,35 @@ namespace ISchoolWebApp01.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            DataRetrieval data = new DataRetrieval();
+            var loadedAbout = await data.GetData("about/");
+            var jsonAboutResults = JsonConvert.DeserializeObject<About>(loadedAbout);
+            var loadedEmployment = await data.GetData("employment/");
+            var jsonEmpResults = JsonConvert.DeserializeObject<Employment>(loadedEmployment);
+
+            dynamic expando = new ExpandoObject();
+            var comboModel = expando as IDictionary<string, object>;
+            comboModel.Add("About", jsonAboutResults);
+            comboModel.Add("Employment", jsonEmpResults);
+
+            return View(comboModel);
         }
 
-        public async Task<IActionResult> About()
+        public async Task<ActionResult> Degrees()
         {
-            DataRetrieval dataR = new DataRetrieval();
-            var loadedPep = await dataR.GetData("about/");
-            var jsonResult = JsonConvert.DeserializeObject<About>(loadedPep);
+            DataRetrieval data = new DataRetrieval();
+            var loadedData = await data.GetData("degrees/");
+            var jsonResult = JsonConvert.DeserializeObject<Degrees>(loadedData);
+            return View(jsonResult);
+        }
+
+        public async Task<ActionResult> Employment()
+        {
+            DataRetrieval data = new DataRetrieval();
+            var loadedData = await data.GetData("employment/");
+            var jsonResult = JsonConvert.DeserializeObject<Employment>(loadedData);
             return View(jsonResult);
         }
 
@@ -59,29 +77,33 @@ namespace ISchoolWebApp01.Controllers
             DataRetrieval dataR = new DataRetrieval();
             var loadedPep = await dataR.GetData("people/");
             var jsonResult = JsonConvert.DeserializeObject<PeopleModel>(loadedPep);
-            //Add page title
-            jsonResult.pageTitle = "Our People";
-                
             return View(jsonResult);
         }
 
-        public async Task<IActionResult> DynTest()
+        public async Task<ActionResult> MinorCourses()
         {
-            DataRetrieval dataR = new DataRetrieval();
-            var loadedAbout = await dataR.GetData("about/");
-            var rtnResults = JsonConvert.DeserializeObject<About>(loadedAbout);
+            DataRetrieval data = new DataRetrieval();
 
-            var loadedCourse = await dataR.GetData("course/courseID=ISTE-340");
-            var courseRtnResults = JsonConvert.DeserializeObject<Course>(loadedCourse);
+            var loadedMinors = await data.GetData("minors/");
+            var jsonMinorsResults = JsonConvert.DeserializeObject<Minors>(loadedMinors);
+
+            var loadedCourses = await data.GetData("course/");
+            var jsonCourseResults = JsonConvert.DeserializeObject<List<Courses>>(loadedCourses);
 
             dynamic expando = new ExpandoObject();
             var comboModel = expando as IDictionary<string, object>;
-
-            comboModel.Add("About", rtnResults);
-            comboModel.Add("Course", courseRtnResults);
-            comboModel.Add("pageTitle", "Test with a dynamic object");
+            comboModel.Add("Minors", jsonMinorsResults);
+            comboModel.Add("Courses", jsonCourseResults);
 
             return View(comboModel);
+        }
+
+        public async Task<ActionResult> News()
+        {
+            DataRetrieval data = new DataRetrieval();
+            var loadedNews = await data.GetData("news/");
+            var jsonNewsResults = JsonConvert.DeserializeObject<News>(loadedNews);
+            return View(jsonNewsResults);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

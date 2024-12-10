@@ -1,0 +1,18 @@
+﻿@model ISchoolWebApp01.Models.News
+
+<h1 style="color: white">News</h1>
+<div id="newsBody">
+
+    Pick a date to show news: <input type="text" id="pickDate"/>
+    
+    @foreach (var data in @Model.older)
+    {
+        <div id="newsAccordion">
+            <p>@data.date</p>
+            <div>
+                <h1>@data.title</h1>
+                <p>@data.description</p>
+            </div>
+        </div>
+    }
+</div>

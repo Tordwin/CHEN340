@@ -1,8 +1,41 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model dynamic
+@{
+    ViewData["Title"] = "Home";
 }
 
+@* 
+    The following sub-root nodes exist in this section:
+        title
+        description
+        quote
+        quoteAuthor
+*@
+
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div class="display-4">
+        <h1 style="font-size: 50px;">Welcome to ISchool</h1>
+        <a class="player video-background"
+           data-property="{videoURL:'ytmK9iO5IP0', containment:'.display-4', autoPlay:true, mute:true, startAt:0, opacity:1}">
+        </a>
+    </div>
+</div>
+
+<div class="about">
+    <h1>@Model.About.title</h1>
+    <h2>@Model.About.description</h2>
+</div>
+
+<div id="degreeStats">
+    @foreach (var content in @Model.Employment.degreeStatistics.statistics)
+    {
+        <div id="degreeItems">
+            <h3>@content.value</h3>
+            <p>@content.description</p>
+        </div>
+    }
+</div>
+
+<div id="quote">
+    <p>@Model.About.quote</p>
+    <h3>@Model.About.quoteAuthor</h3>
 </div>

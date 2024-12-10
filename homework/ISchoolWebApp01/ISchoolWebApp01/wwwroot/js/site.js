@@ -3,8 +3,13 @@
 
 // Write your JavaScript code.
 $(function () {
-    //for the accordion on people
-    $("#accTest").accordion({ collapsible: true, active: false, heightStyle: "content" });
-    $("#tabTest").tabs();
-    $("#pepEverything").fadeIn(1000);
+    $("#peopleTab").tabs();
+    $("[id=collapseDescription]").accordion({ collapsible: true, active: false, heightStyle: "content"})
+    new DataTable('table.display');
+    $("[id=newsAccordion]").accordion({ collapsible: true, active: false, heightStyle: "content" })
+    $("#pickDate").datepicker()
 })
+
+jQuery(function () {
+    jQuery(".player").YTPlayer();
+});
